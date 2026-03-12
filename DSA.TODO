@@ -1,0 +1,498 @@
+########################################################
+#################### DATA STRUCTURES ###################
+########################################################
+
+ARRAY
+Array
+Prefix Sum Array
+Suffix Sum Array
+Difference Array
+Circular Array
+Dynamic Array
+
+LINKED LIST
+Singly Linked List
+Doubly Linked List
+Circular Linked List
+Skip List
+
+STACK
+Stack
+Min Stack
+Max Stack
+Monotonic Stack
+
+QUEUE
+Queue
+Circular Queue
+Deque
+Priority Queue
+Monotonic Queue
+
+HASHING
+Hash Map
+Hash Set
+Hash Table
+Ordered Map
+Ordered Set
+
+HEAP
+Binary Heap
+Min Heap
+Max Heap
+D-ary Heap
+Fibonacci Heap
+Binomial Heap
+
+TREES
+Binary Tree
+Binary Search Tree
+AVL Tree
+Red Black Tree
+Segment Tree
+Segment Tree Lazy Propagation
+Fenwick Tree (Binary Indexed Tree)
+Interval Tree
+KD Tree
+Treap
+Splay Tree
+B Tree
+B+ Tree
+Trie
+Suffix Tree
+Suffix Array
+Suffix Automaton
+
+GRAPH REPRESENTATION
+Adjacency List
+Adjacency Matrix
+Edge List
+Weighted Graph
+Directed Graph
+Undirected Graph
+
+DISJOINT SET
+Union Find
+Path Compression
+Union by Rank
+
+ADVANCED STRUCTURES
+LRU Cache
+LFU Cache
+Sparse Table
+Heavy Light Decomposition
+Centroid Decomposition
+
+
+
+########################################################
+###################### ALGORITHMS ######################
+########################################################
+
+
+==============================
+ARRAY / PREFIX / WINDOW
+==============================
+
+Two Sum
+Three Sum
+Four Sum
+Kadane Algorithm
+Maximum Subarray
+Maximum Product Subarray
+Sliding Window Maximum
+Minimum Window Substring
+Subarray Sum Equals K
+Prefix Sum
+Suffix Sum
+Difference Array
+Range Sum Query
+Range Update Query
+Dutch National Flag Algorithm
+Rotate Array
+Merge Intervals
+Insert Interval
+Next Permutation
+Trapping Rain Water
+Container With Most Water
+Longest Consecutive Sequence
+Subarray Product Less Than K
+Maximum Circular Subarray
+Maximum Average Subarray
+Longest Subarray with Sum K
+
+
+==============================
+SEARCHING
+==============================
+
+Linear Search
+Binary Search
+Ternary Search
+Jump Search
+Interpolation Search
+Exponential Search
+Fibonacci Search
+Binary Search on Answer
+
+
+==============================
+SORTING
+==============================
+
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Heap Sort
+Shell Sort
+Counting Sort
+Radix Sort
+Bucket Sort
+Tim Sort
+Cycle Sort
+Pigeonhole Sort
+Comb Sort
+Gnome Sort
+Bitonic Sort
+External Merge Sort
+Intro Sort
+
+
+==============================
+LINKED LIST ALGORITHMS
+==============================
+
+Reverse Linked List
+Reverse K Group
+Detect Cycle (Floyd Cycle)
+Find Middle
+Merge Two Lists
+Merge K Lists
+Remove Nth Node
+Add Two Numbers
+Intersection of Lists
+Copy Random Pointer
+Rotate Linked List
+Palindrome Linked List
+Flatten Linked List
+
+
+==============================
+STACK ALGORITHMS
+==============================
+
+Valid Parentheses
+Min Stack
+Next Greater Element
+Previous Greater Element
+Next Smaller Element
+Stock Span Problem
+Largest Rectangle Histogram
+Trapping Rain Water Stack
+Infix to Postfix
+Infix to Prefix
+Postfix Evaluation
+Prefix Evaluation
+Monotonic Stack Pattern
+
+
+==============================
+QUEUE / DEQUE ALGORITHMS
+==============================
+
+Queue Using Stacks
+Stack Using Queues
+Circular Queue
+LRU Cache
+Sliding Window Maximum
+First Negative in Window
+Deque Implementation
+
+
+==============================
+HEAP / PRIORITY QUEUE
+==============================
+
+Build Heap
+Heapify
+Kth Largest Element
+Kth Smallest Element
+Top K Frequent Elements
+Merge K Sorted Lists
+Median from Data Stream
+Connect Ropes
+Sort Nearly Sorted Array
+K Closest Points to Origin
+
+
+==============================
+HASHING
+==============================
+
+Two Sum Hash
+Group Anagrams
+Longest Substring Without Repeat
+Longest Zero Sum Subarray
+Subarray with Given Sum
+Count Distinct Elements Window
+Frequency Sort
+Isomorphic Strings
+Ransom Note Problem
+
+
+==============================
+STRINGS
+==============================
+
+Naive Pattern Matching
+KMP Algorithm
+Rabin Karp
+Z Algorithm
+Manacher Algorithm
+Suffix Array
+Suffix Tree
+Aho Corasick
+Longest Palindromic Substring
+Longest Common Prefix
+Edit Distance
+String Compression
+Anagram Detection
+Word Break
+Minimum Window Substring
+Rolling Hash
+Booth Algorithm
+
+
+==============================
+TREES
+==============================
+
+Binary Tree Traversal
+Inorder Traversal
+Preorder Traversal
+Postorder Traversal
+Level Order Traversal
+Zigzag Traversal
+Boundary Traversal
+Vertical Order Traversal
+Top View
+Bottom View
+Left View
+Right View
+Tree Height
+Tree Diameter
+Balanced Binary Tree
+Symmetric Tree
+Maximum Path Sum
+Lowest Common Ancestor
+Serialize Tree
+Deserialize Tree
+Morris Traversal
+
+
+==============================
+BINARY SEARCH TREE
+==============================
+
+Insert BST
+Delete BST
+Search BST
+Validate BST
+Kth Smallest BST
+BST Iterator
+Range Sum BST
+Recover BST
+
+
+==============================
+GRAPH TRAVERSAL
+==============================
+
+Breadth First Search
+Depth First Search
+Iterative DFS
+Multi Source BFS
+Bidirectional BFS
+
+
+==============================
+SHORTEST PATH
+==============================
+
+Dijkstra Algorithm
+Bellman Ford
+Floyd Warshall
+SPFA Algorithm
+A* Search
+
+
+==============================
+MINIMUM SPANNING TREE
+==============================
+
+Prim Algorithm
+Kruskal Algorithm
+Boruvka Algorithm
+
+
+==============================
+GRAPH CONNECTIVITY
+==============================
+
+Union Find
+Path Compression
+Union by Rank
+Connected Components
+Strongly Connected Components
+Kosaraju Algorithm
+Tarjan Algorithm
+Bridge Finding
+Articulation Points
+
+
+==============================
+DIRECTED GRAPH
+==============================
+
+Topological Sort
+Kahn Algorithm
+Cycle Detection Directed Graph
+
+
+==============================
+UNDIRECTED GRAPH
+==============================
+
+Cycle Detection DFS
+Cycle Detection Union Find
+Bipartite Graph Check
+
+
+==============================
+FLOW NETWORK
+==============================
+
+Ford Fulkerson
+Edmonds Karp
+Dinic Algorithm
+Push Relabel Algorithm
+Min Cut Algorithm
+
+
+==============================
+DYNAMIC PROGRAMMING
+==============================
+
+Fibonacci DP
+Climbing Stairs
+House Robber
+House Robber II
+Knapsack 0/1
+Knapsack Unbounded
+Subset Sum
+Partition Equal Subset
+Coin Change
+Coin Change 2
+Rod Cutting
+Matrix Chain Multiplication
+Longest Common Subsequence
+Longest Increasing Subsequence
+Longest Palindromic Subsequence
+Edit Distance
+Word Break
+Maximum Square Submatrix
+Egg Dropping Problem
+Burst Balloons
+Palindromic Partition
+DP on Trees
+Digit DP
+
+
+==============================
+GREEDY
+==============================
+
+Activity Selection
+Huffman Coding
+Fractional Knapsack
+Job Scheduling
+Gas Station Problem
+Minimum Platforms
+Candy Distribution
+
+
+==============================
+BACKTRACKING
+==============================
+
+N Queens
+Sudoku Solver
+Rat in Maze
+Word Search
+Permutations
+Combinations
+Combination Sum
+Subsets
+Palindrome Partition
+
+
+==============================
+DIVIDE AND CONQUER
+==============================
+
+Merge Sort
+Quick Sort
+Binary Search
+Closest Pair of Points
+Karatsuba Multiplication
+Strassen Matrix Multiplication
+
+
+==============================
+BIT MANIPULATION
+==============================
+
+XOR Swap
+Single Number
+Power of Two
+Count Set Bits
+Subset Generation Bitmask
+Gray Code
+Fast Exponentiation
+
+
+==============================
+ADVANCED ALGORITHMS
+==============================
+
+Reservoir Sampling
+Mo's Algorithm
+Convex Hull Graham Scan
+Jarvis March
+Line Sweep Algorithm
+KMP Automaton
+Suffix Automaton
+Heavy Light Decomposition
+Centroid Decomposition
+Meet in the Middle
+
+
+==============================
+MATHEMATICAL
+==============================
+
+Euclidean GCD
+Extended Euclidean
+Sieve of Eratosthenes
+Segmented Sieve
+Modular Exponentiation
+Modular Inverse
+Chinese Remainder Theorem
+Fermat Little Theorem
+Lucas Theorem
+Catalan Numbers
+Binomial Coefficient DP
+Fast Fourier Transform
+Number Theoretic Transform
