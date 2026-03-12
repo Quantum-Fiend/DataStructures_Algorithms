@@ -34,22 +34,47 @@ package arrays;
 * Space Complexity: O(1)
 !---------------------------------------
  */
+//public class ArrayBasics {
+//	public static void main(String[] args) {
+//		int[] array = { 5, 3, 1, 17, 98, 711, 5 };
+
+//		int largest = Integer.MIN_VALUE;
+//		int secondLargest = Integer.MIN_VALUE;
+
+//		for (int i = 0; i < array.length; i++) {
+//			if (array[i] > largest) {
+//				secondLargest = largest;
+//				largest = array[i];
+//			} else if (array[i] > secondLargest && array[i] != largest) {
+//				secondLargest = array[i];
+//			}
+//		}
+//		System.out.println(secondLargest);
+
+//	}
+//}
+
+
+/*
+!---------------------------------------
+* Problem 3: Check If the array is Sorted
+* Status: DONE ✅
+* Approach: Linear Traversal
+* Time Complexity: O(n)
+* Space Complexity: O(1)
+!---------------------------------------
+ */
 public class ArrayBasics {
 	public static void main(String[] args) {
-		int[] array = { 5, 3, 1, 17, 98, 711, 5 };
-
-		int largest = Integer.MIN_VALUE;
-		int secondLargest = Integer.MIN_VALUE;
+		int[] array = { 1, 3, 4, 1, 2, 9, 8, 7 };
+		boolean isSorted = true;
 
 		for (int i = 0; i < array.length; i++) {
-			if (array[i] > largest) {
-				secondLargest = largest;
-				largest = array[i];
-			} else if (array[i] > secondLargest && array[i] != largest) {
-				secondLargest = array[i];
-			}
+				if (array[i] < array[i + 1]) {
+					isSorted = false;
+					break;
+				}
 		}
-		System.out.println(secondLargest);
-
+		System.out.println(isSorted);
 	}
 }
