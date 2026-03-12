@@ -23,3 +23,33 @@ package arrays;
 //        System.out.println(findLargest);
 //    }
 //}
+
+
+/*
+!---------------------------------------
+* Problem 2: Find the second Largest Element
+* Status: DONE ✅
+* Approach: Single Pass Traversal Approach
+* Time Complexity: O(n)
+* Space Complexity: O(1)
+!---------------------------------------
+ */
+public class ArrayBasics {
+	public static void main(String[] args) {
+		int[] array = { 5, 3, 1, 17, 98, 711, 5 };
+
+		int largest = Integer.MIN_VALUE;
+		int secondLargest = Integer.MIN_VALUE;
+
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] > largest) {
+				secondLargest = largest;
+				largest = array[i];
+			} else if (array[i] > secondLargest && array[i] != largest) {
+				secondLargest = array[i];
+			}
+		}
+		System.out.println(secondLargest);
+
+	}
+}
