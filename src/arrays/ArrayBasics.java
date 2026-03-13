@@ -79,25 +79,63 @@ package arrays;
 
 /*
 !---------------------------------------
-* Problem 4: Reverse an array 
+* Problem 4: Reverse an array
 * Status: DONE ✅
 * Approach: Reverse Traversal
 * Time Complexity: O(n)
 * Space Complexity: O(n)  // because of StringBuilder
 !---------------------------------------
  */
+//public class ArrayBasics {
+//	public static void main(String[] args) {
+//		int[] array = { 1, 2, 3, 4, 5 };
+
+//		StringBuilder rev = new StringBuilder();
+//		for (int i = array.length - 1; i >= 0; i--) {
+//			rev.append(array[i]);
+
+//			if (i != 0) {
+//				rev.append(",");
+//			}
+//		}
+//		System.out.println(rev);
+//	}
+//}
+
+
+/*
+!---------------------------------------
+* Problem 5: Rotate Array by K Steps
+* Status: DONE ✅
+* Approach: Reversal Algorithm
+* Time Complexity: O(n)
+* Space Complexity: O(n)
+!---------------------------------------
+ */
 public class ArrayBasics {
-	public static void main(String[] args) {
-		int[] array = { 1, 2, 3, 4, 5 };
 
-		StringBuilder rev = new StringBuilder();
-		for (int i = array.length - 1; i >= 0; i--) {
-			rev.append(array[i]);
+    public static void rotateArray(int[] arr, int k) {
+        int n = arr.length;
+        k = k % n;
+        reverse(arr, 0, n - 1);
+        reverse(arr, 0, k - 1);
+        reverse(arr, k, n - 1);
+    }
 
-			if (i != 0) {
-				rev.append(",");
-			}
-		}
-		System.out.println(rev);
-	}
+    public static void reverse(int[] arr, int start, int end) {
+        while (start < end) {
+            int temp = arr[start];
+            arr[start++] = arr[end];
+            arr[end--] = temp;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+        int k = 3;
+        rotateArray(arr, k);
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
 }
