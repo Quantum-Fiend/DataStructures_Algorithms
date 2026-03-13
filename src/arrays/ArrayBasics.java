@@ -24,7 +24,6 @@ package arrays;
 //    }
 //}
 
-
 /*
 !---------------------------------------
 * Problem 2: Find the second Largest Element
@@ -54,7 +53,6 @@ package arrays;
 //	}
 //}
 
-
 /*
 !---------------------------------------
 * Problem 3: Check If the array is Sorted
@@ -64,17 +62,42 @@ package arrays;
 * Space Complexity: O(1)
 !---------------------------------------
  */
+//public class ArrayBasics {
+//	public static void main(String[] args) {
+//		int[] array = { 1, 3, 4, 1, 2, 9, 8, 7 };
+//		boolean isSorted = true;
+
+//		for (int i = 0; i < array.length; i++) {
+//				if (array[i] < array[i + 1]) {
+//					isSorted = false;
+//					break;
+//				}
+//		}
+//		System.out.println(isSorted);
+//	}
+//}
+
+/*
+!---------------------------------------
+* Problem 4: Reverse an array 
+* Status: DONE ✅
+* Approach: Reverse Traversal
+* Time Complexity: O(n)
+* Space Complexity: O(n)  // because of StringBuilder
+!---------------------------------------
+ */
 public class ArrayBasics {
 	public static void main(String[] args) {
-		int[] array = { 1, 3, 4, 1, 2, 9, 8, 7 };
-		boolean isSorted = true;
+		int[] array = { 1, 2, 3, 4, 5 };
 
-		for (int i = 0; i < array.length; i++) {
-				if (array[i] < array[i + 1]) {
-					isSorted = false;
-					break;
-				}
+		StringBuilder rev = new StringBuilder();
+		for (int i = array.length - 1; i >= 0; i--) {
+			rev.append(array[i]);
+
+			if (i != 0) {
+				rev.append(",");
+			}
 		}
-		System.out.println(isSorted);
+		System.out.println(rev);
 	}
 }
