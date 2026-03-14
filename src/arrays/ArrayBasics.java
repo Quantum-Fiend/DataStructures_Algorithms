@@ -102,7 +102,6 @@ package arrays;
 //	}
 //}
 
-
 /*
 !---------------------------------------
 * Problem 5: Rotate Array by K Steps
@@ -179,17 +178,41 @@ package arrays;
 * Space Complexity: O(n)
 !---------------------------------------
  */
-import java.util.*;
+//import java.util.*;
 
+//public class ArrayBasics {
+//	public static void main(String[] args) {
+//		int[] arr = { 1, 2, 2, 3, 4, 5, 5, 6 };
+
+//		Set<Integer> set = new LinkedHashSet<>();
+
+//		for (int i = 0; i < arr.length; i++) {
+//			set.add(arr[i]);
+//		}
+//		System.out.println(set);
+//	}
+//}
+
+/*
+!---------------------------------------
+* Problem 8: Find Missing Number
+* Status: DONE ✅
+* Approach: Sum Formula 
+* Time Complexity: O(n)
+* Space Complexity: O(1)
+!---------------------------------------
+ */
 public class ArrayBasics {
 	public static void main(String[] args) {
-		int[] arr = { 1, 2, 2, 3, 4, 5, 5, 6 };
+		int[] arr = { 1, 2, 4, 5, 6 };
+		int n = 6;
 
-		Set<Integer> set = new LinkedHashSet<>();
+		int expectedSum = n * (n + 1) / 2;
+		int actualSum = 0;
 
-		for (int i = 0; i < arr.length; i++) {
-			set.add(arr[i]);
+		for (int num : arr) {
+			actualSum += num;
 		}
-		System.out.println(set);
+		System.out.println("Missing number : " + (expectedSum - actualSum));
 	}
 }
