@@ -149,23 +149,47 @@ package arrays;
 * Space Complexity: O(1)
 !---------------------------------------
  */
+//public class ArrayBasics {
+//	public static void main(String[] args) {
+//		int[] arr = { 0, 1, 0, 1, 12 };
+//		int index = 0;
+
+//		for (int i = 0; i < arr.length; i++) {
+//			if (arr[i] != 0) {
+//				arr[index] = arr[i];
+//				index++;
+//			}
+//		}
+//		while (index < arr.length) {
+//			arr[index] = 0;
+//			index++;
+//		}
+//		for (int i = 0; i < arr.length; i++) {
+//			System.out.println(arr[i]);
+//		}
+//	}
+//}
+
+/*
+!---------------------------------------
+* Problem 7: Remove Duplicates From Sorted Array
+* Status: DONE ✅
+* Approach:	Linked HashSet
+* Time Complexity: O(n)
+* Space Complexity: O(n)
+!---------------------------------------
+ */
+import java.util.*;
+
 public class ArrayBasics {
 	public static void main(String[] args) {
-		int[] arr = { 0, 1, 0, 1, 12 };
-		int index = 0;
+		int[] arr = { 1, 2, 2, 3, 4, 5, 5, 6 };
+
+		Set<Integer> set = new LinkedHashSet<>();
 
 		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] != 0) {
-				arr[index] = arr[i];
-				index++;
-			}
+			set.add(arr[i]);
 		}
-		while (index < arr.length) {
-			arr[index] = 0;
-			index++;
-		}
-		for (int i = 0; i < arr.length; i++) {
-			System.out.println(arr[i]);
-		}
+		System.out.println(set);
 	}
 }
