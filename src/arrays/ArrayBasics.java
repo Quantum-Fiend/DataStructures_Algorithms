@@ -197,22 +197,51 @@ package arrays;
 !---------------------------------------
 * Problem 8: Find Missing Number
 * Status: DONE ✅
-* Approach: Sum Formula 
+* Approach: Sum Formula
 * Time Complexity: O(n)
 * Space Complexity: O(1)
 !---------------------------------------
  */
+//public class ArrayBasics {
+//	public static void main(String[] args) {
+//		int[] arr = { 1, 2, 4, 5, 6 };
+//		int n = 6;
+
+//		int expectedSum = n * (n + 1) / 2;
+//		int actualSum = 0;
+
+//		for (int num : arr) {
+//			actualSum += num;
+//		}
+//		System.out.println("Missing number : " + (expectedSum - actualSum));
+//	}
+//}
+
+/*
+!---------------------------------------
+* Problem 9: Union Of Two Array
+* Status: DONE ✅
+* Approach: Hashing (Using HashSet)
+* Time Complexity: O(n + m)
+* Space Complexity: O(n + m)
+!---------------------------------------
+ */
+import java.util.*;
 public class ArrayBasics {
 	public static void main(String[] args) {
-		int[] arr = { 1, 2, 4, 5, 6 };
-		int n = 6;
+		int[] arr1 = { 1, 2, 3, 4};
+		int[] arr2 = { 3, 4, 5, 6 };
 
-		int expectedSum = n * (n + 1) / 2;
-		int actualSum = 0;
+		Set<Integer> set = new HashSet<>();
 
-		for (int num : arr) {
-			actualSum += num;
+		for (int i = 0; i < arr1.length; i++) {
+			set.add(arr1[i]);
 		}
-		System.out.println("Missing number : " + (expectedSum - actualSum));
+
+		for (int i = 0; i < arr2.length; i++) {
+			set.add(arr2[i]);
+		}
+
+		System.out.println(set);
 	}
 }
