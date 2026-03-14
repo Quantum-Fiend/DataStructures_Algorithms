@@ -112,30 +112,60 @@ package arrays;
 * Space Complexity: O(n)
 !---------------------------------------
  */
+//public class ArrayBasics {
+
+//    public static void rotateArray(int[] arr, int k) {
+//        int n = arr.length;
+//        k = k % n;
+//        reverse(arr, 0, n - 1);
+//        reverse(arr, 0, k - 1);
+//        reverse(arr, k, n - 1);
+//    }
+
+//    public static void reverse(int[] arr, int start, int end) {
+//        while (start < end) {
+//            int temp = arr[start];
+//            arr[start++] = arr[end];
+//            arr[end--] = temp;
+//        }
+//    }
+
+//    public static void main(String[] args) {
+//        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+//        int k = 3;
+//        rotateArray(arr, k);
+//        for (int num : arr) {
+//            System.out.print(num + " ");
+//        }
+//    }
+//}
+
+/*
+!---------------------------------------
+* Problem 6: Move all zeros to the end
+* Status: DONE ✅
+* Approach: Two Pointer Technique
+* Time Complexity: O(n)
+* Space Complexity: O(1)
+!---------------------------------------
+ */
 public class ArrayBasics {
+	public static void main(String[] args) {
+		int[] arr = { 0, 1, 0, 1, 12 };
+		int index = 0;
 
-    public static void rotateArray(int[] arr, int k) {
-        int n = arr.length;
-        k = k % n;
-        reverse(arr, 0, n - 1);
-        reverse(arr, 0, k - 1);
-        reverse(arr, k, n - 1);
-    }
-
-    public static void reverse(int[] arr, int start, int end) {
-        while (start < end) {
-            int temp = arr[start];
-            arr[start++] = arr[end];
-            arr[end--] = temp;
-        }
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        int k = 3;
-        rotateArray(arr, k);
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-    }
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] != 0) {
+				arr[index] = arr[i];
+				index++;
+			}
+		}
+		while (index < arr.length) {
+			arr[index] = 0;
+			index++;
+		}
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
 }
