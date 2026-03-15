@@ -28,7 +28,7 @@ package arrays;
 !---------------------------------------
 * Problem 2: Find the second Largest Element
 * Status: DONE ✅
-* Approach: Single Pass Traversal Approach
+* Approach: Single Pass Traversal 
 * Time Complexity: O(n)
 * Space Complexity: O(1)
 !---------------------------------------
@@ -225,23 +225,62 @@ package arrays;
 * Time Complexity: O(n + m)
 * Space Complexity: O(n + m)
 !---------------------------------------
- */
+*/
+//import java.util.*;
+//public class ArrayBasics {
+//	public static void main(String[] args) {
+//		int[] arr1 = { 1, 2, 3, 4};
+//		int[] arr2 = { 3, 4, 5, 6 };
+
+//		Set<Integer> set = new HashSet<>();
+
+//		for (int i = 0; i < arr1.length; i++) {
+//			set.add(arr1[i]);
+//		}
+
+//		for (int i = 0; i < arr2.length; i++) {
+//			set.add(arr2[i]);
+//		}
+
+//		System.out.println(set);
+//	}
+//}
+
+/*
+!---------------------------------------
+* Problem 10: Intersection Of Two Array
+* Status: DONE ✅
+* Approach: HashSet Based
+* Time Complexity: O(m + n)
+* Space Complexity: O(n)
+!---------------------------------------
+*/
 import java.util.*;
+
 public class ArrayBasics {
-	public static void main(String[] args) {
-		int[] arr1 = { 1, 2, 3, 4};
-		int[] arr2 = { 3, 4, 5, 6 };
 
-		Set<Integer> set = new HashSet<>();
+    public static int[] intersection(int[] nums1, int[] nums2) {
+        Set<Integer> set = new HashSet<>();
+        List<Integer> result = new ArrayList<>();
 
-		for (int i = 0; i < arr1.length; i++) {
-			set.add(arr1[i]);
-		}
+        for (int n : nums1) {
+            set.add(n);
+        }
 
-		for (int i = 0; i < arr2.length; i++) {
-			set.add(arr2[i]);
-		}
+        for (int n : nums2) {
+            if (set.contains(n)) {
+                result.add(n);
+                set.remove(n);
+            }
+        }
+        return result.stream().mapToInt(i -> i).toArray();
+    }
 
-		System.out.println(set);
-	}
+    public static void main(String[] args) {
+        int[] a = {1, 2, 2, 3, 4};
+        int[] b = {2, 2, 3, 5};
+
+        int[] res = intersection(a, b);
+        System.out.println(Arrays.toString(res));
+    }
 }
