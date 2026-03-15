@@ -61,30 +61,72 @@ package arrays;
 * Space Complexity: O(n)
 !----------------------------------------------------------
 */
-import java.util.Stack;
+//import java.util.Stack;
 
+//public class CircularArray {
+//	public static void main(String[] args) {
+//		int[] arr = { 4, 5, 2, 10, 8 };
+//		int n = arr.length;
+//		int[] result = new int[n];
+//		Stack<Integer> stack = new Stack<>();
+
+//		for (int i = n - 1; i >= 0; i--) {
+//			while (!stack.isEmpty() && stack.peek() <= arr[i]) {
+//				stack.pop();
+//			}
+//			if (stack.isEmpty()) {
+//				result[i] = i;
+//			} else {
+//				result[i] = stack.peek();
+//			}
+
+//			stack.push(arr[i]);
+//		}
+
+//		for (int x : result) {
+//			System.out.println(x + " ");
+//		}
+//	}
+//}
+
+/*
+!----------------------------------------------------------
+* Problem 3: Gas Station Circular Problem
+* Status: DONE ✅
+* Approach: Greedy Method
+* Time Complexity: O(n)
+* Space Complexity: O(1)
+!----------------------------------------------------------
+*/
 public class CircularArray {
+	public static int canCompleteCircuit(int[] gas, int[] cost) {
+		int totalTank = 0;
+		int currTank = 0;
+		int startIndex = 0;
+
+		for (int i = 0; i < gas.length; i++) {
+			int diff = gas[i] - cost[i];
+			totalTank += diff;
+			currTank += diff;
+
+			if (currTank < 0) {
+				startIndex = i + 1;
+				currTank = 0;
+			}
+		}
+
+		if (totalTank >= 0) {
+			return startIndex;
+		} else {
+			return -1;
+		}
+	}
+
 	public static void main(String[] args) {
-		int[] arr = { 4, 5, 2, 10, 8 };
-		int n = arr.length;
-		int[] result = new int[n];
-		Stack<Integer> stack = new Stack<>();
+		int[] gas = { 1, 2, 3, 4, 5 };
+		int[] cost = { 3, 4, 5, 1, 2 };
 
-		for (int i = n - 1; i >= 0; i--) {
-			while (!stack.isEmpty() && stack.peek() <= arr[i]) {
-				stack.pop();
-			}
-			if (stack.isEmpty()) {
-				result[i] = i;
-			} else {
-				result[i] = stack.peek();
-			}
-
-			stack.push(arr[i]);
-		}
-
-		for (int x : result) {
-			System.out.println(x + " ");
-		}
+		int result = canCompleteCircuit(gas, cost);
+		System.out.println(result);
 	}
 }
