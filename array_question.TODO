@@ -58,7 +58,7 @@ Used for range update problems.
 
 ### Problems
 
-1. Range update queries
+1. Range update queries [Done]
 2. Perform multiple range increments
 3. Range addition problem
 4. Car pooling problem
