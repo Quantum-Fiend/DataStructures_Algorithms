@@ -59,7 +59,7 @@ Used for range update problems.
 ### Problems
 
 1. Range update queries [Done]
-2. Perform multiple range increments
+2. Perform multiple range increments [Done]
 3. Range addition problem
 4. Car pooling problem
 5. Maximum value after range updates
