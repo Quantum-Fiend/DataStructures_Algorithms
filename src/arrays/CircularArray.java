@@ -98,35 +98,71 @@ package arrays;
 * Space Complexity: O(1)
 !----------------------------------------------------------
 */
+//public class CircularArray {
+//	public static int canCompleteCircuit(int[] gas, int[] cost) {
+//		int totalTank = 0;
+//		int currTank = 0;
+//		int startIndex = 0;
+
+//		for (int i = 0; i < gas.length; i++) {
+//			int diff = gas[i] - cost[i];
+//			totalTank += diff;
+//			currTank += diff;
+
+//			if (currTank < 0) {
+//				startIndex = i + 1;
+//				currTank = 0;
+//			}
+//		}
+
+//		if (totalTank >= 0) {
+//			return startIndex;
+//		} else {
+//			return -1;
+//		}
+//	}
+
+//	public static void main(String[] args) {
+//		int[] gas = { 1, 2, 3, 4, 5 };
+//		int[] cost = { 3, 4, 5, 1, 2 };
+
+//		int result = canCompleteCircuit(gas, cost);
+//		System.out.println(result);
+//	}
+//}
+
+/*
+!----------------------------------------------------------
+* Problem 4: Circular Rotation Check
+* Status: DONE ✅
+* Approach: String Concatenation + Substring Check
+* Time Complexity: O(n)
+* Space Complexity: O(1)
+!----------------------------------------------------------
+*/
 public class CircularArray {
-	public static int canCompleteCircuit(int[] gas, int[] cost) {
-		int totalTank = 0;
-		int currTank = 0;
-		int startIndex = 0;
 
-		for (int i = 0; i < gas.length; i++) {
-			int diff = gas[i] - cost[i];
-			totalTank += diff;
-			currTank += diff;
+    public static boolean isCircularRotation(String s1, String s2) {
 
-			if (currTank < 0) {
-				startIndex = i + 1;
-				currTank = 0;
-			}
-		}
+        if (s1 == null || s2 == null) {
+            return false;
+        }
 
-		if (totalTank >= 0) {
-			return startIndex;
-		} else {
-			return -1;
-		}
-	}
+        s1 = s1.trim();
+        s2 = s2.trim();
 
-	public static void main(String[] args) {
-		int[] gas = { 1, 2, 3, 4, 5 };
-		int[] cost = { 3, 4, 5, 1, 2 };
+        if (s1.length() != s2.length()) {
+            return false;
+        }
 
-		int result = canCompleteCircuit(gas, cost);
-		System.out.println(result);
-	}
+        String temp = s1 + s1;
+        return temp.contains(s2);
+    }
+
+    public static void main(String[] args) {
+        String s1 = "ABCD";
+        String s2 = "CDAB";
+
+        System.out.println(isCircularRotation(s1, s2));
+    }
 }
