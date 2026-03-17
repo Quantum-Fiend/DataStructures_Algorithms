@@ -3,17 +3,17 @@ package arrays;
 !----------------------------------------------------------
 * Problem 1: Range Update Queries
 * Status: DONE ✅
-* Approach:
-* Time Complexity: O(n)
+* Approach: Difference Array Technique
+* Time Complexity: O(Q)
 * Space Complexity: O(n)
 !----------------------------------------------------------
- */
+*/
 public class DifferenceArray {
 
-    public static void applyQueries(int n, int[][] queries) {
+	public static void applyQueries(int n, int[][] queries) {
+
         int[] arr = new int[n];
 
-        // Step 1: Apply difference updates
         for (int[] q : queries) {
             int L = q[0];
             int R = q[1];
@@ -25,12 +25,10 @@ public class DifferenceArray {
             }
         }
 
-        // Step 2: Prefix sum to get final array
         for (int i = 1; i < n; i++) {
             arr[i] += arr[i - 1];
         }
 
-        // Print result
         for (int x : arr) {
             System.out.print(x + " ");
         }
