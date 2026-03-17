@@ -140,29 +140,55 @@ package arrays;
 * Space Complexity: O(1)
 !----------------------------------------------------------
 */
+//public class CircularArray {
+
+//    public static boolean isCircularRotation(String s1, String s2) {
+
+//        if (s1 == null || s2 == null) {
+//            return false;
+//        }
+
+//        s1 = s1.trim();
+//        s2 = s2.trim();
+
+//        if (s1.length() != s2.length()) {
+//            return false;
+//        }
+
+//        String temp = s1 + s1;
+//        return temp.contains(s2);
+//    }
+
+//    public static void main(String[] args) {
+//        String s1 = "ABCD";
+//        String s2 = "CDAB";
+
+//        System.out.println(isCircularRotation(s1, s2));
+//    }
+//}
+
+/*
+!----------------------------------------------------------
+* Problem 5: Circular Traversal Simulation
+* Status: DONE ✅
+* Approach: Modulo Arithmetic Simulation
+* Time Complexity: O(n)
+* Space Complexity: O(1)
+!----------------------------------------------------------
+*/
 public class CircularArray {
+	public static void circularPrint(int[] arr, int start, int steps) {
+		int n = arr.length;
 
-    public static boolean isCircularRotation(String s1, String s2) {
+		for (int i = 0; i < steps; i++) {
+			int index = (start + i) % n;
+			System.out.println(arr[index] + " ");
+		}
+	}
 
-        if (s1 == null || s2 == null) {
-            return false;
-        }
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 5 };
 
-        s1 = s1.trim();
-        s2 = s2.trim();
-
-        if (s1.length() != s2.length()) {
-            return false;
-        }
-
-        String temp = s1 + s1;
-        return temp.contains(s2);
-    }
-
-    public static void main(String[] args) {
-        String s1 = "ABCD";
-        String s2 = "CDAB";
-
-        System.out.println(isCircularRotation(s1, s2));
-    }
+		circularPrint(arr, 3, 8);
+	}
 }
