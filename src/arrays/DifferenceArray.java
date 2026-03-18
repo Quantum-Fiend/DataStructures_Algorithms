@@ -106,40 +106,76 @@ package arrays;
 * Space Complexity: O(n)
 !----------------------------------------------------------
 */
+//public class DifferenceArray {
+//	public static int[] rangeAddition(int n, int[][] queries) {
+//		int[] diff = new int[n + 1];
+
+//		for (int[] query : queries) {
+//			int l = query[0];
+//			int r = query[1];
+//			int val = query[2];
+
+//			diff[l] += val;
+//			if (r + 1 < n) {
+//				diff[r + 1] -= val;
+//			}
+//		}
+
+//		int[] result = new int[n];
+//		result[0] = diff[0];
+//		for (int i = 1; i < n; i++) {
+//			result[i] = result[i - 1] + diff[i];
+//		}
+//		return result;
+//	}
+
+//	public static void main(String[] args) {
+//		int n = 5;
+//		int[][] queries = {
+//				{ 1, 3, 2 },
+//				{ 2, 4, 3 }
+//		};
+
+//		int[] result = rangeAddition(n, queries);
+
+//		for (int val : result) {
+//			System.out.println(val + " ");
+//		}
+//	}
+//}
+
+/*
+!----------------------------------------------------------
+* Problem 4: Car Pooling Problem
+* Status: DONE ✅
+* Approach: Prefix Sum 
+* Time Complexity: O(trips.length + maxLocation)
+* Space Complexity: O(maxLocation)
+!----------------------------------------------------------
+ */
 public class DifferenceArray {
-	public static int[] rangeAddition(int n, int[][] queries) {
-		int[] diff = new int[n + 1];
-
-		for (int[] query : queries) {
-			int l = query[0];
-			int r = query[1];
-			int val = query[2];
-
-			diff[l] += val;
-			if (r + 1 < n) {
-				diff[r + 1] -= val;
-			}
+	public static boolean carPooling(int[][] trips, int capacity) {
+		int maxLocation = 0;
+		for (int[] trip : trips) {
+			maxLocation = Math.max(maxLocation, trip[2]);
 		}
-
-		int[] result = new int[n];
-		result[0] = diff[0];
-		for (int i = 1; i < n; i++) {
-			result[i] = result[i - 1] + diff[i];
+		int[] diff = new int[maxLocation + 1];
+		for (int[] trip : trips) {
+			int num = trip[0], start = trip[1], end = trip[2];
+			diff[start] += num;
+			diff[end] -= num;
 		}
-		return result;
+		int pessenger = 0;
+		for (int p : diff) {
+			pessenger += p;
+			if (pessenger > capacity)
+				return false;
+		}
+		return true;
 	}
-
 	public static void main(String[] args) {
-		int n = 5;
-		int[][] queries = {
-				{ 1, 3, 2 },
-					{2,4,3}
-		};
-
-		int[] result = rangeAddition(n, queries);
-
-		for (int val : result) {
-			System.out.println(val + " ");
-		}
+		int[][] trips = { { 2, 1, 5 }, { 3, 3, 7 } };
+		int capacity = 4;
+		System.out.println(carPooling(trips, capacity));
 	}
 }
