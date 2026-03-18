@@ -148,34 +148,72 @@ package arrays;
 !----------------------------------------------------------
 * Problem 4: Car Pooling Problem
 * Status: DONE ✅
-* Approach: Prefix Sum 
+* Approach: Prefix Sum
 * Time Complexity: O(trips.length + maxLocation)
 * Space Complexity: O(maxLocation)
 !----------------------------------------------------------
- */
+*/
+//public class DifferenceArray {
+//	public static boolean carPooling(int[][] trips, int capacity) {
+//		int maxLocation = 0;
+//		for (int[] trip : trips) {
+//			maxLocation = Math.max(maxLocation, trip[2]);
+//		}
+//		int[] diff = new int[maxLocation + 1];
+//		for (int[] trip : trips) {
+//			int num = trip[0], start = trip[1], end = trip[2];
+//			diff[start] += num;
+//			diff[end] -= num;
+//		}
+//		int pessenger = 0;
+//		for (int p : diff) {
+//			pessenger += p;
+//			if (pessenger > capacity)
+//				return false;
+//		}
+//		return true;
+//	}
+//	public static void main(String[] args) {
+//		int[][] trips = { { 2, 1, 5 }, { 3, 3, 7 } };
+//		int capacity = 4;
+//		System.out.println(carPooling(trips, capacity));
+//	}
+//}
+
+/*
+!----------------------------------------------------------
+* Problem 5: Maximum Value After Range Updates
+* Status: DONE ✅
+* Approach: Difference Array + Prefix Sum
+* Time Complexity: O(n + m)
+* Space Complexity: O(n)
+!----------------------------------------------------------
+*/
 public class DifferenceArray {
-	public static boolean carPooling(int[][] trips, int capacity) {
-		int maxLocation = 0;
-		for (int[] trip : trips) {
-			maxLocation = Math.max(maxLocation, trip[2]);
-		}
-		int[] diff = new int[maxLocation + 1];
-		for (int[] trip : trips) {
-			int num = trip[0], start = trip[1], end = trip[2];
-			diff[start] += num;
-			diff[end] -= num;
-		}
-		int pessenger = 0;
-		for (int p : diff) {
-			pessenger += p;
-			if (pessenger > capacity)
-				return false;
-		}
-		return true;
-	}
-	public static void main(String[] args) {
-		int[][] trips = { { 2, 1, 5 }, { 3, 3, 7 } };
-		int capacity = 4;
-		System.out.println(carPooling(trips, capacity));
-	}
+
+    public static void main(String[] args) {
+        int n = 5;
+        int[][] q = {
+            {1, 3, 2},
+            {2, 4, 3},
+            {0, 2, 1}
+        };
+        int[] a = new int[n + 1];
+
+        for (int[] x : q) {
+            a[x[0]] += x[2];
+            if (x[1] + 1 < a.length) {
+                a[x[1] + 1] -= x[2];
+            }
+        }
+        int max = 0, sum = 0;
+
+        for (int i = 0; i < n; i++) {
+            sum += a[i];
+            if (sum > max) {
+                max = sum;
+            }
+        }
+        System.out.println(max);
+    }
 }
