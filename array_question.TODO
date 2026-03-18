@@ -60,7 +60,7 @@ Used for range update problems.
 
 1. Range update queries [Done]
 2. Perform multiple range increments [Done]
-3. Range addition problem
+3. Range addition problem [Done]
 4. Car pooling problem
 5. Maximum value after range updates
 
