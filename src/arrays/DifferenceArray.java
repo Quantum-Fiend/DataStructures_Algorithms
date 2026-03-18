@@ -55,44 +55,91 @@ package arrays;
 * Space Complexity: O(n)
 !----------------------------------------------------------
 */
+//public class DifferenceArray {
+
+//    public static int[] multipleRangeIncrement(int n, int[][] queries) {
+//        int[] diff = new int[n];
+
+//        for (int[] q : queries) {
+//            int L = q[0];
+//            int R = q[1];
+//            int val = q[2];
+
+//            diff[L] += val;
+//            if (R + 1 < n) {
+//                diff[R + 1] -= val;
+//            }
+//        }
+
+//        int[] result = new int[n];
+//        result[0] = diff[0];
+
+//        for (int i = 1; i < n; i++) {
+//            result[i] = result[i - 1] + diff[i];
+//        }
+
+//        return result;
+//    }
+
+//    public static void main(String[] args) {
+//        int n = 5;
+
+//        int[][] queries = {
+//            {1, 3, 2},
+//            {2, 4, 3}
+//        };
+
+//        int[] result = multipleRangeIncrement(n, queries);
+
+//        for (int x : result) {
+//            System.out.print(x + " ");
+//        }
+//    }
+//}
+
+/*
+!----------------------------------------------------------
+* Problem 3: Range Addition Problem
+* Status: DONE ✅
+* Approach: Prefix Sum Trick For Range Update
+* Time Complexity: O(N + Q)
+* Space Complexity: O(n)
+!----------------------------------------------------------
+*/
 public class DifferenceArray {
+	public static int[] rangeAddition(int n, int[][] queries) {
+		int[] diff = new int[n + 1];
 
-    public static int[] multipleRangeIncrement(int n, int[][] queries) {
-        int[] diff = new int[n];
+		for (int[] query : queries) {
+			int l = query[0];
+			int r = query[1];
+			int val = query[2];
 
-        for (int[] q : queries) {
-            int L = q[0];
-            int R = q[1];
-            int val = q[2];
+			diff[l] += val;
+			if (r + 1 < n) {
+				diff[r + 1] -= val;
+			}
+		}
 
-            diff[L] += val;
-            if (R + 1 < n) {
-                diff[R + 1] -= val;
-            }
-        }
+		int[] result = new int[n];
+		result[0] = diff[0];
+		for (int i = 1; i < n; i++) {
+			result[i] = result[i - 1] + diff[i];
+		}
+		return result;
+	}
 
-        int[] result = new int[n];
-        result[0] = diff[0];
+	public static void main(String[] args) {
+		int n = 5;
+		int[][] queries = {
+				{ 1, 3, 2 },
+					{2,4,3}
+		};
 
-        for (int i = 1; i < n; i++) {
-            result[i] = result[i - 1] + diff[i];
-        }
+		int[] result = rangeAddition(n, queries);
 
-        return result;
-    }
-
-    public static void main(String[] args) {
-        int n = 5;
-
-        int[][] queries = {
-            {1, 3, 2},
-            {2, 4, 3}
-        };
-
-        int[] result = multipleRangeIncrement(n, queries);
-
-        for (int x : result) {
-            System.out.print(x + " ");
-        }
-    }
+		for (int val : result) {
+			System.out.println(val + " ");
+		}
+	}
 }
