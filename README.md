@@ -231,4 +231,4 @@ If you find this repository helpful:
 
 **Tushar Singh Bisht**
 
-Software Engineering & Problem Solving Enthusiast
+Programmer
