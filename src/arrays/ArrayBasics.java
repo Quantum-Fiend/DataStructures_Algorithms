@@ -28,7 +28,7 @@ package arrays;
 !---------------------------------------
 * Problem 2: Find the second Largest Element
 * Status: DONE ✅
-* Approach: Single Pass Traversal 
+* Approach: Single Pass Traversal
 * Time Complexity: O(n)
 * Space Complexity: O(1)
 !---------------------------------------
