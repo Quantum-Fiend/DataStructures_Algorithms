@@ -20,22 +20,6 @@ This repository acts as a **learning journal**, **practice tracker**, and **refe
 
 ---
 
-# 📑 Table of Contents
-
-- Repository Goals
-- Topics Covered
-- Project Structure
-- Tech Stack
-- Problem Solving Strategy
-- Complexity Analysis
-- Progress Tracker
-- Learning Roadmap
-- Future Goals
-- Contribution
-- Author
-
----
-
 # 🎯 Repository Goals
 
 This repository is built to:
@@ -115,8 +99,6 @@ Each folder contains implementations and practice problems for specific topics.
 
 ---
 
-# 🛠 Tech Stack
-
 ### Language
 
 - Java
@@ -157,43 +139,6 @@ This helps ensure solutions are **efficient and scalable**.
 
 ---
 
-# 📈 Progress Tracker
-
-All problems to be implemented are tracked inside:
-
-```
-ALGOS_TODO.md
-```
-
-Example:
-
-```
-[ ] Two Sum
-[ ] Binary Search
-[ ] Merge Sort
-[ ] Dijkstra Algorithm
-[ ] Dynamic Programming
-```
-
----
-
-# 🧭 Learning Roadmap
-
-This repository follows a structured learning path:
-
-1️⃣ Arrays & Strings
-2️⃣ Hashing
-3️⃣ Linked Lists
-4️⃣ Stack & Queue
-5️⃣ Binary Search
-6️⃣ Trees
-7️⃣ Heap
-8️⃣ Graphs
-9️⃣ Dynamic Programming
-🔟 Advanced Algorithms
-
----
-
 # 🎯 Future Goals
 
 - Implement **300+ algorithmic problems**
@@ -204,31 +149,8 @@ This repository follows a structured learning path:
 
 ---
 
-# 🤝 Contributions
-
-This repository is primarily created for learning and practice, but suggestions and improvements are always welcome.
-
-If you want to contribute:
-
-1. Fork the repository
-2. Create a new branch
-3. Make improvements
-4. Submit a Pull Request
-
----
-
-# ⭐ Support
-
-If you find this repository helpful:
-
-⭐ Star the repository
-🍴 Fork the repository
-📢 Share it with others learning DSA
-
 ---
 
 # 👨‍💻 Author
 
 **Tushar Singh Bisht**
-
-Programmer
