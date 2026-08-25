@@ -10,6 +10,9 @@ Day 1 — Java Basics + Arrays
 	Find the missing number from 1 to n.
 	Find all duplicate elements.
 	Find the first non-repeating element.
+	Find the maximum and minimum in one traversal.
+	Rotate an array by k positions.
+	Remove an element from an array in-place.
 
 Day 2 — HashMap + HashSet
 	Check if an array contains duplicates.
@@ -32,6 +35,10 @@ Day 3 — Two Pointers + Sliding Window
 	Find the longest substring without repeating characters.
 	Find the maximum sum of a subarray of size k.
 	Find the smallest subarray with sum at least a given target.
+	Check if a string is a palindrome.
+	Find two numbers with a given target sum.
+	Move all zeroes to the end.
+	Remove duplicates from a sorted array.
 
 Day 4 — Sorting + Binary Search
 	Sort an integer array in ascending order.
