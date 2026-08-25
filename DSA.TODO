@@ -1,4 +1,3 @@
-Java + DSA Problem Set
 Day 1 — Java Basics + Arrays
 	Find the largest element in an integer array.
 	Find the smallest element in an integer array.
@@ -30,14 +29,11 @@ Day 3 — Two Pointers + Sliding Window
 	Check if a string is a palindrome.
 	Find two numbers with a given target sum.
 	Move all zeroes to the end.
-	Remove duplicates from a sorted array.
 	Find the maximum profit from buying and selling a stock.
 	Find the longest substring without repeating characters.
 	Find the maximum sum of a subarray of size k.
 	Find the smallest subarray with sum at least a given target.
-	Check if a string is a palindrome.
 	Find two numbers with a given target sum.
-	Move all zeroes to the end.
 	Remove duplicates from a sorted array.
 
 Day 4 — Sorting + Binary Search
