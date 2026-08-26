@@ -1,5 +1,5 @@
 Day 1 — Java Basics + Arrays
-	Find the largest element in an integer array.
+	Find the largest element in an integer array. ~ "Done"
 	Find the smallest element in an integer array.
 	Find the sum of all elements in an array.
 	Count even and odd numbers in an array.
@@ -15,8 +15,8 @@ Day 1 — Java Basics + Arrays
 
 Day 2 — HashMap + HashSet
 	Check if an array contains duplicates.
-	Count the frequency of every element.
 	Find the first element that appears twice.
+	Count the frequency of every element.
 	Find the first element that appears only once.
 	Find two numbers whose sum equals a target.
 	Find the majority element.
