@@ -25,3 +25,5 @@ public class countEvenOdd {
 		System.out.println("Even Count : " + evenNumber);
 	}
 }
+// Time Complexity = O(n) ~ [ Linear ]
+// Space Complexity = O(1) ~ [ Constant ]

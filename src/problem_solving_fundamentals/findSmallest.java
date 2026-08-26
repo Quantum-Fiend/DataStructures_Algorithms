@@ -19,3 +19,5 @@ public class findSmallest {
 		System.out.println(smallest);
 	}
 }
+// Time Complexity = O(n) ~ [ Linear ]
+// Space Complexity = O(1) ~ [ Constant ]
