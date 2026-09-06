@@ -16,7 +16,7 @@ Day 1 — Java Basics + Arrays
 Day 2 — HashMap + HashSet
 	Check if an array contains duplicates. ~ "Done"
 	Find the first element that appears twice. ~ "Done
-	Count the frequency of every element.
+	Count the frequency of every element. ~ "Done"
 	Find the first element that appears only once.
 	Find two numbers whose sum equals a target.
 	Find the majority element.
@@ -28,7 +28,7 @@ Day 2 — HashMap + HashSet
 Day 3 — Two Pointers + Sliding Window
 	Check if a string is a palindrome.
 	Find two numbers with a given target sum.
-	Move all zeroes to the end.
+	Move all zeroes to t	he end.
 	Find the maximum profit from buying and selling a stock.
 	Find the longest substring without repeating characters.
 	Find the maximum sum of a subarray of size k.
