@@ -1,7 +1,11 @@
 package problem_solving_fundamentals;
 
+import java.util.HashMap;
+
 public class twoSumFindTarget {
 	public static void main(String[] args) {
+
+		HashMap<Integer, Integer> map = new HashMap<>();
 
 		int[] arr1 = { 2, 7, 11, 15 };
 		int target1 = 9;
@@ -23,5 +27,17 @@ public class twoSumFindTarget {
 		// int target5 = 25;
 		// Expected: {1, 4}
 
+		for (int i = 0; i < arr1.length; i++) {
+			int currentNumber = arr1[i];
+			int remainder = target1 - currentNumber;
+
+			if (map.containsKey(remainder)) {
+				System.out.println("{ " + map.get(remainder) + " , " + i + " }");
+				break;
+			}
+			map.put(currentNumber, i);
+		}
 	}
 }
+// Time Complexity = O(n) ~ [ Linear ]
+// Space Complexity = O(n) ~ [ Linear ]
