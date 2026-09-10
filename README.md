@@ -182,7 +182,6 @@ The goal is not only to make a solution work, but to understand **why it works a
 - 📝 VS Code
 - 🌱 Git
 - 🐙 GitHub
-- 🔨 Gradle
 
 ---
 
