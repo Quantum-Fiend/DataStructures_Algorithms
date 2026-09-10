@@ -8,16 +8,16 @@
 </p>
 
 <p align="center">
-  <b>Learn the concept. Solve the problem. Recognize the pattern. Build the skill.</b>
+  <b>Learn the concept → Solve the problem → Recognize the pattern → Build the skill.</b>
 </p>
 
 ---
 
 ## 📌 About
 
-This repository is my journey to build a strong foundation in **Data Structures & Algorithms** and develop better problem-solving skills.
+This repository is my journey to build a strong foundation in **Data Structures & Algorithms** and develop real problem-solving ability.
 
-It covers problem-solving fundamentals, core data structures, classical algorithms, common DSA patterns, coding problems, and advanced concepts.
+It contains problem-solving fundamentals, core data structures, algorithms, patterns, and interview-oriented problems — all implemented and practiced in Java.
 
 > **The goal is not to memorize solutions. The goal is to become capable of solving problems you have never seen before.**
 
@@ -42,26 +42,28 @@ It covers problem-solving fundamentals, core data structures, classical algorith
 
 Problem-Solving Fundamentals → Core DSA → Patterns → Interview Problems → Advanced DSA
 
-The progression is designed to build understanding gradually. Pattern recognition is developed through practice, not memorization.
+The purpose of this progression is to build understanding gradually rather than jumping directly into difficult problems.
 
 ---
 
-## 🧠 How to Solve Problems
+## 🧠 How I Approach Problems
 
 > **"Don't memorize solutions. Learn how to recognize patterns."**
 
 For every problem:
 
 1. Understand the problem, examples, and constraints.
-2. Try it yourself for **20–30 minutes** before looking at a solution.
-3. Start with **brute force**, then look for ways to optimize.
-4. Understand the **pattern behind the solution** instead of memorizing code.
-5. Implement the solution yourself in your preferred language.
-6. Analyze **Time & Space Complexity**.
-7. If you look at a solution, close it and implement it again yourself.
-8. Mark a problem `✅` only when you can explain the approach and solve it without help.
+2. Try solving it yourself for **20–30 minutes**.
+3. Think about the **brute-force approach first**.
+4. Look for ways to optimize the solution.
+5. Identify the **pattern or technique** being used.
+6. Implement the solution yourself.
+7. Analyze **Time & Space Complexity**.
+8. If a solution is reviewed, close it and implement it again without looking.
 
-> **You don't need to recognize patterns from the beginning. First learn the patterns, then practice recognizing them.**
+A problem is considered **Done** only when the approach can be explained and implemented independently.
+
+> **Pattern recognition is not something you start with. It is something you build through practice.**
 
 ---
 
@@ -82,7 +84,7 @@ For every problem:
 - Trie
 - Segment Tree
 - Fenwick Tree
-- Disjoint Set Union
+- Disjoint Set Union (Union Find)
 
 ### Algorithms & Techniques
 
@@ -109,7 +111,7 @@ For every problem:
     DataStructures_Algorithms
     │
     ├── README.md
-    ├── foundation.todo
+    ├── problem_solving_foundation.todo
     │
     └── src
         │
@@ -128,21 +130,21 @@ For every problem:
         ├── dp
         └── utils
 
-### `foundation.todo`
+### `problem_solving_foundation.todo`
 
-Contains the structured foundation roadmap designed to build basic problem-solving ability before moving into complex DSA patterns.
+The structured foundation roadmap containing carefully selected problems to develop basic problem-solving skills before moving into advanced DSA patterns.
 
 ### `problem_solving_fundamentals`
 
-Contains solutions to the foundation problems.
+Contains the Java solutions for the problems listed in the foundation roadmap.
 
 ### Topic Folders
 
-Contain implementations, algorithms, and real problem-solving practice for individual DSA topics.
+Contain topic-specific implementations, algorithms, patterns, and problem-solving practice.
 
 ---
 
-## 📊 Complexity
+## 📊 Complexity Matters
 
 Every solution should consider:
 
@@ -154,7 +156,7 @@ Example:
     Time Complexity:  O(n)
     Space Complexity: O(1)
 
-Understanding **why** a solution has a particular complexity is as important as writing the solution itself.
+The goal is not only to make a solution work, but to understand **why it works and how efficiently it works**.
 
 ---
 
@@ -201,29 +203,19 @@ Understanding **why** a solution has a particular complexity is as important as 
 
 This repository is **In Progress**.
 
-It is not meant to represent perfection. It represents the process of learning, struggling, improving, and eventually becoming comfortable with problems that once seemed difficult.
+It is not meant to represent perfection. It represents the process of learning, struggling, improving, and becoming comfortable with problems that once seemed difficult.
 
-> "I don't know how to solve this."
->
-> ↓
->
-> "Let me understand the problem."
->
-> ↓
->
-> "Can I solve it with brute force?"
->
-> ↓
->
-> "Can I optimize it?"
->
-> ↓
->
-> "I recognize this pattern."
->
-> ↓
->
-> "I can solve it."
+    "I don't know how to solve this."
+                    ↓
+        "Let me understand the problem."
+                    ↓
+        "Can I solve it with brute force?"
+                    ↓
+             "Can I optimize it?"
+                    ↓
+          "I recognize this pattern."
+                    ↓
+               "I can solve it."
 
 > **Every problem solved is one more pattern understood.**
 
