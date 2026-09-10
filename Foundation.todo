@@ -1,96 +1,313 @@
-Day 1 — Java Basics + Arrays
-	Find the largest element in an integer array. ~ "Done"
-	Find the smallest element in an integer array. ~ "Done"
-	Find the sum of all elements in an array. ~ "Done"
-	Count even and odd numbers in an array. ~ "Done"
-	Reverse an integer array. ~ "Done"
-	Find the second largest element. ~ "Done"
-	Check if an array is sorted in ascending order. ~ "Done"
-	Find the missing number from 1 to n. ~ "Done"
-	Find all duplicate elements. ~ "Done"
-	Find the first non-repeating element. ~ "Done"
-	Find the maximum and minimum in one traversal. ~ "Done
-	Rotate an array by k positions. ~ "Done"
-	Remove an element from an array in-place. ~ "Done"
+## 🧠 How to Use This DSA List
 
-Day 2 — HashMap + HashSet
-	Check if an array contains duplicates. ~ "Done"
-	Find the first element that appears twice. ~ "Done
-	Count the frequency of every element. ~ "Done"
-	Find the first element that appears only once. ~ "Done"
-	Find two numbers whose sum equals a target. ~ "Done"
-	Find the majority element. ~ "Done"
-	Find the intersection of two arrays. ~ "Done"
-	Find the difference between two arrays.
-	Check if two strings are anagrams.
-	Find the most frequent character in a string.
+> **"Don't memorize solutions. Build the ability to solve problems."**
 
-Day 3 — Two Pointers + Sliding Window
-	Check if a string is a palindrome.
-	Find two numbers with a given target sum.
-	Move all zeroes to t	he end.
-	Find the maximum profit from buying and selling a stock.
-	Find the longest substring without repeating characters.
-	Find the maximum sum of a subarray of size k.
-	Find the smallest subarray with sum at least a given target.
-	Find two numbers with a given target sum.
-	Remove duplicates from a sorted array.
+This list is designed to take you from **Beginner → Intermediate → Advanced**.
 
-Day 4 — Sorting + Binary Search
-	Sort an integer array in ascending order.
-	Implement binary search.
-	Find the position where a target should be inserted.
-	Find the first occurrence of a target.
-	Find the last occurrence of a target.
-	Count occurrences of a target in a sorted array.
-	Search in a rotated sorted array.
-	Find the minimum element in a rotated sorted array.
-
-Day 5 — Stack + Queue + Linked List
-	Check if brackets are balanced.
-	Implement a stack using an array.
-	Implement a queue using an array.
-	Find the next greater element for every element.
-	Reverse a singly linked list.
-	Find the middle node of a linked list.
-	Detect a cycle in a linked list.
-	Merge two sorted linked lists.
-	Remove the nth node from the end.
-
-Day 6 — Recursion + Trees
-	Find factorial using recursion.
-	Find the sum from 1 to n using recursion.
-	Find the nth Fibonacci number using recursion.
-	Find the maximum depth of a binary tree.
-	Count nodes in a binary tree.
-	Find the sum of all nodes.
-	Check if two binary trees are identical.
-	Invert a binary tree.
-	Perform level-order traversal.
-
-Day 7 — Mixed Practice
-	Find the smallest positive multiple of k missing from an array.
-	Find the first non-repeating character.
-	Find two numbers that add up to a target.
-	Find the longest consecutive sequence.
-	Find the maximum sum subarray.
-	Find the majority element.
-	Check whether a string contains duplicate characters.
-	Find the intersection of two sorted arrays.
-	Find the maximum depth of a binary tree.
-	Check whether a linked list is a palindrome.
-	Find the minimum element in a rotated sorted array.
-	Find the longest substring without repeating characters.
-🎯 Goal
+The questions are arranged in a learning order, so **don't worry about recognizing patterns immediately**. Pattern recognition will develop naturally as you solve more problems.
 
 For every problem:
 
-Understand the problem first.
-Try it yourself for 20–30 minutes.
-Think about brute force first.
-Then try to optimize.
-Write the solution in Java.
-Identify time and space complexity.
-If you see the solution, close it and implement it again yourself.
+1. **Understand** the problem, examples, and constraints.
+2. **Try it yourself for 20–30 minutes** before looking at a solution.
+3. Start with **brute force**, then think about how to optimize it.
+4. Learn the **pattern behind the solution** — don't just memorize the code.
+5. **Implement it yourself** in your preferred language — **Java, C++, Python, JavaScript**, etc.
+6. Always analyze **Time & Space Complexity.**
+7. If you look at a solution, **close it and implement it again yourself.**
+8. Mark a problem `✅` only when you can **explain it and solve it without help.**
 
-Target: Don't focus on solving 66 problems quickly. Focus on being able to recognize the pattern and explain your solution.
+> **You don't need to recognize every pattern from the beginning. First learn the patterns, then practice recognizing them.**
+
+> **The goal isn't to finish the list. The goal is to build a strong DSA foundation and eventually solve problems you've never seen before.**
+
+# DSA Question List — Java
+
+## Arrays
+
+* [x] 001. Find Largest Element in an Array — Easy | Array
+* [x] 002. Find Smallest Element in an Array — Easy | Array
+* [x] 003. Find Sum of All Elements — Easy | Array
+* [x] 004. Count Even and Odd Numbers — Easy | Array
+* [x] 005. Reverse an Integer Array — Easy | Array
+* [x] 006. Find Second Largest Element — Easy | Array
+* [ ] 007. Find Second Smallest Element — Easy | Array
+* [x] 008. Check if Array is Sorted — Easy | Array
+* [x] 009. Find Missing Number from 1 to N — Easy | Math/XOR
+* [x] 010. Find All Duplicate Elements — Easy | Array/Hashing
+* [x] 011. Find First Non-Repeating Element — Easy | Hashing
+* [x] 012. Find Maximum and Minimum in One Traversal — Easy | Array
+* [x] 013. Rotate Array by K Positions — Medium | Array
+* [x] 014. Remove an Element In-Place — Easy | Two Pointers
+* [ ] 015. Linear Search — Easy | Array
+* [ ] 016. Check if Two Arrays are Equal — Easy | Array
+* [ ] 017. Find Frequency of a Given Element — Easy | Array
+* [ ] 018. Move Negative Numbers to One Side — Easy | Array
+* [ ] 019. Find Element Appearing Once Using XOR — Easy | XOR
+* [ ] 020. Find Leaders in an Array — Easy | Array
+* [ ] 021. Find Equilibrium Index — Easy | Prefix Sum
+* [ ] 022. Maximum Difference Between Two Elements — Easy | Array
+* [ ] 023. Best Time to Buy and Sell Stock — Easy | Greedy
+* [ ] 024. Maximum Subarray — Medium | Kadane's Algorithm
+* [ ] 025. Product of Array Except Self — Medium | Prefix/Suffix
+
+## Strings
+
+* [ ] 026. Reverse a String — Easy | String
+* [ ] 027. Check if a String is a Palindrome — Easy | Two Pointers
+* [ ] 028. Count Vowels and Consonants — Easy | String
+* [ ] 029. Convert Lowercase to Uppercase Without Built-in Method — Easy | String
+* [ ] 030. Remove Spaces from a String — Easy | String
+* [x] 031. Find First Non-Repeating Character — Easy | HashMap
+* [x] 032. Find Most Frequent Character — Easy | HashMap
+* [x] 033. Check if Two Strings are Anagrams — Easy | HashMap
+* [x] 034. Check Whether String Contains Duplicate Characters — Easy | HashSet
+* [ ] 035. Longest Common Prefix — Easy | String
+* [ ] 036. Valid Palindrome Ignoring Special Characters — Easy | Two Pointers
+* [ ] 037. Reverse Words in a String — Medium | String
+* [ ] 038. String Compression — Medium | Two Pointers
+* [ ] 039. Longest Palindromic Substring — Medium | String/DP
+* [ ] 040. Group Anagrams — Medium | HashMap
+
+## HashMap & HashSet
+
+* [x] 041. Check if an Array Contains Duplicates — Easy | HashSet
+* [x] 042. Find First Element That Appears Twice — Easy | HashSet
+* [x] 043. Count Frequency of Every Element — Easy | HashMap
+* [x] 044. Find First Element That Appears Only Once — Easy | HashMap
+* [x] 045. Two Sum — Easy | HashMap
+* [x] 046. Find Majority Element — Easy | HashMap
+* [x] 047. Find Intersection of Two Arrays — Easy | HashSet
+* [x] 048. Find Difference Between Two Arrays — Easy | HashSet
+* [ ] 049. Longest Subarray with Sum K — Medium | Prefix Sum + HashMap
+* [ ] 050. Subarray Sum Equals K — Medium | Prefix Sum + HashMap
+* [ ] 051. Longest Consecutive Sequence — Medium | HashSet
+* [ ] 052. Top K Frequent Elements — Medium | HashMap + Heap
+* [ ] 053. Isomorphic Strings — Easy | HashMap
+* [ ] 054. Happy Number — Easy | HashSet
+* [ ] 055. 4Sum — Medium | Hashing + Two Pointers
+
+## Two Pointers
+
+* [ ] 056. Two Sum in a Sorted Array — Easy | Two Pointers
+* [ ] 057. Move All Zeroes to the End — Easy | Two Pointers
+* [ ] 058. Remove Duplicates from Sorted Array — Easy | Two Pointers
+* [ ] 059. Merge Two Sorted Arrays — Easy | Two Pointers
+* [ ] 060. Squares of a Sorted Array — Easy | Two Pointers
+* [ ] 061. Valid Palindrome Using Two Pointers — Easy | Two Pointers
+* [ ] 062. Container With Most Water — Medium | Two Pointers
+* [ ] 063. 3Sum — Medium | Two Pointers
+* [ ] 064. 3Sum Closest — Medium | Two Pointers
+* [ ] 065. Trapping Rain Water — Hard | Two Pointers
+
+## Sliding Window
+
+* [ ] 066. Maximum Sum Subarray of Size K — Easy | Sliding Window
+* [ ] 067. Smallest Subarray with Sum at Least Target — Medium | Sliding Window
+* [ ] 068. Longest Substring Without Repeating Characters — Medium | Sliding Window
+* [ ] 069. Maximum Number of Vowels in Substring of Size K — Medium | Sliding Window
+* [ ] 070. Longest Substring with At Most K Distinct Characters — Medium | Sliding Window
+* [ ] 071. Longest Repeating Character Replacement — Medium | Sliding Window
+* [ ] 072. Permutation in String — Medium | Sliding Window
+* [ ] 073. Find All Anagrams in a String — Medium | Sliding Window
+* [ ] 074. Fruit Into Baskets — Medium | Sliding Window
+* [ ] 075. Minimum Window Substring — Hard | Sliding Window
+
+## Sorting
+
+* [ ] 076. Bubble Sort — Easy | Sorting
+* [ ] 077. Selection Sort — Easy | Sorting
+* [ ] 078. Insertion Sort — Easy | Sorting
+* [ ] 079. Merge Sort — Medium | Divide & Conquer
+* [ ] 080. Quick Sort — Medium | Divide & Conquer
+* [ ] 081. Sort 0s, 1s and 2s — Medium | Dutch National Flag
+* [ ] 082. Sort Characters by Frequency — Medium | Sorting + HashMap
+* [ ] 083. Merge Overlapping Intervals — Medium | Sorting + Greedy
+
+## Binary Search
+
+* [ ] 084. Implement Binary Search — Easy | Binary Search
+* [ ] 085. Search Insert Position — Easy | Binary Search
+* [ ] 086. Find First Occurrence of Target — Easy | Binary Search
+* [ ] 087. Find Last Occurrence of Target — Easy | Binary Search
+* [ ] 088. Count Occurrences in Sorted Array — Easy | Binary Search
+* [ ] 089. Find Lower Bound — Medium | Binary Search
+* [ ] 090. Find Upper Bound — Medium | Binary Search
+* [ ] 091. Search in Rotated Sorted Array — Medium | Binary Search
+* [ ] 092. Find Minimum in Rotated Sorted Array — Medium | Binary Search
+* [ ] 093. Find Peak Element — Medium | Binary Search
+* [ ] 094. Koko Eating Bananas — Medium | Binary Search on Answer
+* [ ] 095. Capacity to Ship Packages Within D Days — Medium | Binary Search on Answer
+
+## Stack
+
+* [ ] 096. Check if Brackets are Balanced — Easy | Stack
+* [ ] 097. Implement Stack Using Array — Easy | Stack
+* [ ] 098. Implement Stack Using Linked List — Easy | Stack
+* [ ] 099. Reverse a String Using Stack — Easy | Stack
+* [ ] 100. Evaluate Postfix Expression — Medium | Stack
+* [ ] 101. Next Greater Element — Medium | Monotonic Stack
+* [ ] 102. Daily Temperatures — Medium | Monotonic Stack
+* [ ] 103. Min Stack — Medium | Stack
+* [ ] 104. Evaluate Reverse Polish Notation — Medium | Stack
+* [ ] 105. Largest Rectangle in Histogram — Hard | Monotonic Stack
+
+## Queue & Deque
+
+* [ ] 106. Implement Queue Using Array — Easy | Queue
+* [ ] 107. Implement Circular Queue — Medium | Queue
+* [ ] 108. Implement Queue Using Linked List — Easy | Queue
+* [ ] 109. Implement Queue Using Two Stacks — Easy | Queue/Stack
+* [ ] 110. Implement Stack Using Two Queues — Easy | Queue/Stack
+* [ ] 111. Sliding Window Maximum — Hard | Deque
+
+## Linked List
+
+* [ ] 112. Create and Traverse a Singly Linked List — Easy | Linked List
+* [ ] 113. Insert Node at Beginning — Easy | Linked List
+* [ ] 114. Insert Node at End — Easy | Linked List
+* [ ] 115. Delete a Node — Easy | Linked List
+* [ ] 116. Search an Element — Easy | Linked List
+* [ ] 117. Reverse a Singly Linked List — Easy | Linked List
+* [ ] 118. Find Middle Node — Easy | Fast & Slow Pointers
+* [ ] 119. Detect Cycle in Linked List — Easy | Fast & Slow Pointers
+* [ ] 120. Merge Two Sorted Linked Lists — Easy | Linked List
+* [ ] 121. Remove Nth Node from End — Medium | Two Pointers
+* [ ] 122. Check if Linked List is a Palindrome — Medium | Fast & Slow Pointers
+* [ ] 123. Find Intersection of Two Linked Lists — Easy | Two Pointers
+* [ ] 124. Remove Duplicates from Sorted Linked List — Easy | Linked List
+* [ ] 125. Add Two Numbers — Medium | Linked List
+* [ ] 126. Reorder List — Medium | Linked List
+
+## Recursion
+
+* [ ] 127. Factorial Using Recursion — Easy | Recursion
+* [ ] 128. Sum from 1 to N — Easy | Recursion
+* [ ] 129. Print 1 to N — Easy | Recursion
+* [ ] 130. Print N to 1 — Easy | Recursion
+* [ ] 131. Fibonacci Using Recursion — Easy | Recursion
+* [ ] 132. Reverse a String Using Recursion — Easy | Recursion
+* [ ] 133. Check Palindrome Using Recursion — Easy | Recursion
+* [ ] 134. Calculate X^N — Medium | Recursion
+* [ ] 135. Sum of Digits Using Recursion — Easy | Recursion
+* [ ] 136. Count Digits Using Recursion — Easy | Recursion
+
+## Backtracking
+
+* [ ] 137. Generate All Subsets — Medium | Backtracking
+* [ ] 138. Generate All Permutations — Medium | Backtracking
+* [ ] 139. Combination Sum — Medium | Backtracking
+* [ ] 140. Combination Sum II — Medium | Backtracking
+* [ ] 141. Generate Valid Parentheses — Medium | Backtracking
+* [ ] 142. Letter Combinations of a Phone Number — Medium | Backtracking
+* [ ] 143. Word Search — Medium | Backtracking + DFS
+* [ ] 144. N-Queens — Hard | Backtracking
+
+## Binary Tree
+
+* [ ] 145. Maximum Depth of Binary Tree — Easy | DFS
+* [ ] 146. Count Nodes in Binary Tree — Easy | DFS
+* [ ] 147. Sum of All Nodes — Easy | DFS
+* [ ] 148. Check if Two Binary Trees are Identical — Easy | DFS
+* [ ] 149. Invert Binary Tree — Easy | DFS
+* [ ] 150. Inorder Traversal — Easy | DFS
+* [ ] 151. Preorder Traversal — Easy | DFS
+* [ ] 152. Postorder Traversal — Easy | DFS
+* [ ] 153. Level Order Traversal — Medium | BFS
+* [ ] 154. Maximum Width of Binary Tree — Medium | BFS
+* [ ] 155. Diameter of Binary Tree — Easy | DFS
+* [ ] 156. Balanced Binary Tree — Easy | DFS
+* [ ] 157. Binary Tree Right Side View — Medium | BFS/DFS
+* [ ] 158. Lowest Common Ancestor of Binary Tree — Medium | DFS
+* [ ] 159. Binary Tree Maximum Path Sum — Hard | DFS
+
+## Binary Search Tree
+
+* [ ] 160. Search in a Binary Search Tree — Easy | BST
+* [ ] 161. Insert into a Binary Search Tree — Easy | BST
+* [ ] 162. Find Minimum in BST — Easy | BST
+* [ ] 163. Find Maximum in BST — Easy | BST
+* [ ] 164. Validate Binary Search Tree — Medium | BST/DFS
+* [ ] 165. Lowest Common Ancestor of BST — Medium | BST
+* [ ] 166. Kth Smallest Element in BST — Medium | BST/Inorder
+* [ ] 167. Convert Sorted Array to BST — Easy | BST
+
+## Heap / Priority Queue
+
+* [ ] 168. Implement Min Heap — Medium | Heap
+* [ ] 169. Implement Max Heap — Medium | Heap
+* [ ] 170. Kth Largest Element in an Array — Medium | Heap
+* [ ] 171. Kth Smallest Element in an Array — Medium | Heap
+* [ ] 172. Top K Frequent Elements — Medium | Heap
+* [ ] 173. K Closest Points to Origin — Medium | Heap
+* [ ] 174. Merge K Sorted Lists — Hard | Heap + Linked List
+* [ ] 175. Find Median from Data Stream — Hard | Two Heaps
+* [ ] 176. Kth Largest Element in a Stream — Easy | Heap
+* [ ] 177. Last Stone Weight — Easy | Max Heap
+
+## Graph
+
+* [ ] 178. Represent Graph Using Adjacency Matrix — Easy | Graph
+* [ ] 179. Represent Graph Using Adjacency List — Easy | Graph
+* [ ] 180. BFS Traversal of a Graph — Easy | BFS
+* [ ] 181. DFS Traversal of a Graph — Easy | DFS
+* [ ] 182. Count Connected Components — Medium | DFS/BFS
+* [ ] 183. Detect Cycle in Undirected Graph — Medium | DFS/BFS
+* [ ] 184. Detect Cycle in Directed Graph — Medium | DFS
+* [ ] 185. Number of Islands — Medium | DFS/BFS
+* [ ] 186. Flood Fill — Easy | DFS/BFS
+* [ ] 187. Rotting Oranges — Medium | BFS
+* [ ] 188. Clone Graph — Medium | BFS/DFS
+* [ ] 189. Course Schedule — Medium | Topological Sort
+* [ ] 190. Course Schedule II — Medium | Topological Sort
+* [ ] 191. Number of Provinces — Medium | DFS/Union Find
+* [ ] 192. Graph Valid Tree — Medium | DFS/Union Find
+* [ ] 193. Redundant Connection — Medium | Union Find
+* [ ] 194. Shortest Path in an Unweighted Graph — Medium | BFS
+* [ ] 195. Dijkstra's Shortest Path Algorithm — Medium | Dijkstra
+* [ ] 196. Network Delay Time — Medium | Dijkstra
+* [ ] 197. Word Ladder — Hard | BFS
+
+## Greedy
+
+* [ ] 198. Assign Cookies — Easy | Greedy
+* [ ] 199. Best Time to Buy and Sell Stock II — Medium | Greedy
+* [ ] 200. Jump Game — Medium | Greedy
+* [ ] 201. Jump Game II — Medium | Greedy
+* [ ] 202. Gas Station — Medium | Greedy
+* [ ] 203. Partition Labels — Medium | Greedy
+* [ ] 204. Activity Selection — Easy | Greedy
+* [ ] 205. Non-overlapping Intervals — Medium | Greedy
+
+## Dynamic Programming
+
+* [ ] 206. Climbing Stairs — Easy | 1D DP
+* [ ] 207. Min Cost Climbing Stairs — Easy | 1D DP
+* [ ] 208. House Robber — Medium | 1D DP
+* [ ] 209. House Robber II — Medium | 1D DP
+* [ ] 210. Maximum Sum of Non-Adjacent Elements — Easy | 1D DP
+* [ ] 211. Fibonacci Using Memoization — Easy | DP
+* [ ] 212. Fibonacci Using Tabulation — Easy | DP
+* [ ] 213. Unique Paths — Medium | 2D DP
+* [ ] 214. Unique Paths II — Medium | 2D DP
+* [ ] 215. Minimum Path Sum — Medium | 2D DP
+* [ ] 216. 0/1 Knapsack — Medium | Knapsack DP
+* [ ] 217. Subset Sum — Medium | Knapsack DP
+* [ ] 218. Partition Equal Subset Sum — Medium | Knapsack DP
+* [ ] 219. Target Sum — Medium | Knapsack DP
+* [ ] 220. Coin Change — Medium | DP
+* [ ] 221. Coin Change II — Medium | DP
+* [ ] 222. Longest Common Subsequence — Medium | String DP
+* [ ] 223. Longest Common Substring — Medium | String DP
+* [ ] 224. Longest Palindromic Subsequence — Medium | String DP
+* [ ] 225. Edit Distance — Hard | String DP
+* [ ] 226. Word Break — Medium | String DP
+* [ ] 227. Longest Increasing Subsequence — Medium | DP
+* [ ] 228. Maximum Product Subarray — Medium | DP
+* [ ] 229. Decode Ways — Medium | DP
+* [ ] 230. Best Time to Buy and Sell Stock with Cooldown — Medium | DP
+* [ ] 231. Burst Balloons — Hard | Interval DP
+* [ ] 232. Distinct Subsequences — Hard | String DP
+* [ ] 233. Regular Expression Matching — Hard | String DP
+* [ ] 234. Palindrome Partitioning II — Hard | DP
+* [ ] 235. Cherry Pickup — Hard | 2D DP
