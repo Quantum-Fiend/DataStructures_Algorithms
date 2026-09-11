@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findSmallest {
+public class findSmallestElement_002 {
 	public static void main(String[] args) {
 
 		// int[] arr1 = { -5, 12, 3, -20, 8 }; // Test Case 1

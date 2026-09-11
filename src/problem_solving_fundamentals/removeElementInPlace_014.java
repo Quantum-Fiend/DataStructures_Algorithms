@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class removeElementInPlace {
+public class removeElementInPlace_014 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { 3, 2, 2, 3 };

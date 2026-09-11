@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.HashMap;
 
-public class checkDuplicates {
+public class checkDuplicates_041 {
 	public static void main(String[] args) {
 
 		HashMap<Integer, Integer> map = new HashMap<>();

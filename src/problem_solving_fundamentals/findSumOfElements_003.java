@@ -1,18 +1,18 @@
 package problem_solving_fundamentals;
 
-public class findSum {
+public class findSumOfElements_003 {
 	public static void main(String[] args) {
 
-		// int[] arr1 = { 5, 10, 15, 20 }; // Test Case 1
+		int[] arr1 = { 5, 10, 15, 20 }; // Test Case 1
 
 		// int[] arr2 = { -5, 10, -15, 20 }; // Test Case 2
 
-		int[] arr3 = { -10, -20, -30, -40 }; // Test Case 3
+		// int[] arr3 = { -10, -20, -30, -40 }; // Test Case 3
 
 		int sum = 0;
 
-		for (int i = 1; i < arr3.length; i++) {
-			sum += arr3[i];
+		for (int i = 1; i < arr1.length; i++) {
+			sum += arr1[i];
 		}
 		System.out.println(sum);
 	}

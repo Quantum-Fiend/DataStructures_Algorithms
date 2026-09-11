@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.Arrays;
 
-public class reverseArray {
+public class reverseIntegerArray_005 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { 1, 2, 3, 4, 5 }; // Test Case 1

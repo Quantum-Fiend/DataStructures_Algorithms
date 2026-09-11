@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findDuplicates {
+public class findAllDuplicates_010 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { 1, 2, 3, 2, 4, 5, 1 };

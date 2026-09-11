@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.HashSet;
 
-public class findFirstAppearTwice {
+public class findFirstAppearTwice_042 {
 	public static void main(String[] args) {
 
 		HashSet<Integer> set = new HashSet<>();

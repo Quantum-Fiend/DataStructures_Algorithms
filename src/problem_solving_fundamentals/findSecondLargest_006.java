@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findSecondLargest {
+public class findSecondLargest_006 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { 1, 2, 3, 4, 5, 6 }; // Test Case 1

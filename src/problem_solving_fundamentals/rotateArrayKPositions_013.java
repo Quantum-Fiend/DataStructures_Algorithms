@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class rotateArrayKPositions {
+public class rotateArrayKPositions_013 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { 1, 2, 3, 4, 5 };

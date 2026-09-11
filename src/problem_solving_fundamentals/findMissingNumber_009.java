@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findMissingNumber {
+public class findMissingNumber_009 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { 1, 2, 3, 5, 6 }; // Test Case 1 → Missing: 4

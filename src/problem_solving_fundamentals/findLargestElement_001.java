@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findLargest {
+public class findLargestElement_001 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { -5, 12, 3 }; // Test Case 1

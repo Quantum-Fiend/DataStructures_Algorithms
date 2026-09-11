@@ -58,10 +58,10 @@ For every problem:
 * [ ] 028. Count Vowels and Consonants — Easy | String
 * [ ] 029. Convert Lowercase to Uppercase Without Built-in Method — Easy | String
 * [ ] 030. Remove Spaces from a String — Easy | String
-* [x] 031. Find First Non-Repeating Character — Easy | HashMap
-* [x] 032. Find Most Frequent Character — Easy | HashMap
-* [x] 033. Check if Two Strings are Anagrams — Easy | HashMap
-* [x] 034. Check Whether String Contains Duplicate Characters — Easy | HashSet
+* [ ] 031. Find First Non-Repeating Character — Easy | HashMap
+* [ ] 032. Find Most Frequent Character — Easy | HashMap
+* [ ] 033. Check if Two Strings are Anagrams — Easy | HashMap
+* [ ] 034. Check Whether String Contains Duplicate Characters — Easy | HashSet
 * [ ] 035. Longest Common Prefix — Easy | String
 * [ ] 036. Valid Palindrome Ignoring Special Characters — Easy | Two Pointers
 * [ ] 037. Reverse Words in a String — Medium | String
@@ -71,14 +71,14 @@ For every problem:
 
 ## HashMap & HashSet
 
-* [x] 041. Check if an Array Contains Duplicates — Easy | HashSet
+* [x] 041. Check if an Array Contains Duplicates — Easy | HashMap
 * [x] 042. Find First Element That Appears Twice — Easy | HashSet
 * [x] 043. Count Frequency of Every Element — Easy | HashMap
 * [x] 044. Find First Element That Appears Only Once — Easy | HashMap
 * [x] 045. Two Sum — Easy | HashMap
 * [x] 046. Find Majority Element — Easy | HashMap
 * [x] 047. Find Intersection of Two Arrays — Easy | HashSet
-* [x] 048. Find Difference Between Two Arrays — Easy | HashSet
+* [ ] 048. Find Difference Between Two Arrays — Easy | HashSet
 * [ ] 049. Longest Subarray with Sum K — Medium | Prefix Sum + HashMap
 * [ ] 050. Subarray Sum Equals K — Medium | Prefix Sum + HashMap
 * [ ] 051. Longest Consecutive Sequence — Medium | HashSet

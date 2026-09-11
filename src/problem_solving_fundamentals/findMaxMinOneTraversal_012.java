@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findMaxMin {
+public class findMaxMinOneTraversal_012 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { 7, 2, 9, 4, 1, 6 };

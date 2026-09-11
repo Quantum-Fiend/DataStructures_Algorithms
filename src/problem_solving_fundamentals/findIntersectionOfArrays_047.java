@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.HashSet;
 
-public class findIntersection {
+public class findIntersectionOfArrays_047 {
 	public static void main(String[] args) {
 
 		HashSet<Integer> set = new HashSet<>();
