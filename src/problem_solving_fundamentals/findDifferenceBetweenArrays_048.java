@@ -1,8 +1,12 @@
 package problem_solving_fundamentals;
 
+import java.util.HashSet;
+
 public class findDifferenceBetweenArrays_048 {
 	public static void main(String[] args) {
 
+		HashSet<Integer> set1 = new HashSet<>();
+		HashSet<Integer> set2 = new HashSet<>();
 		// Test Case 1
 		int[] arr1 = { 1, 2, 3, 4 };
 		int[] arr2 = { 2, 4, 5 };
@@ -28,5 +32,9 @@ public class findDifferenceBetweenArrays_048 {
 		// int[] arr2 = { 2, 3, 4, 4 };
 		// Expected symmetric difference: [1, 4]
 
+		for (int a1 : arr1)
+			set1.add(a1);
+		for (int a2 : arr2)
+			set2.add(a2);
 	}
 }
