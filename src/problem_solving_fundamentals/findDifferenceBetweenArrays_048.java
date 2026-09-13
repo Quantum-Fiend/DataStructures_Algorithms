@@ -1,5 +1,4 @@
 package problem_solving_fundamentals;
-
 import java.util.HashSet;
 
 public class findDifferenceBetweenArrays_048 {
@@ -7,6 +6,8 @@ public class findDifferenceBetweenArrays_048 {
 
 		HashSet<Integer> set1 = new HashSet<>();
 		HashSet<Integer> set2 = new HashSet<>();
+		HashSet<Integer> result = new HashSet<>();
+
 		// Test Case 1
 		int[] arr1 = { 1, 2, 3, 4 };
 		int[] arr2 = { 2, 4, 5 };
@@ -36,5 +37,17 @@ public class findDifferenceBetweenArrays_048 {
 			set1.add(a1);
 		for (int a2 : arr2)
 			set2.add(a2);
+
+		for (int num : arr1)
+			if (!set2.contains(num))
+				result.add(num);
+
+		for (int num : arr2)
+			if (!set1.contains(num))
+				result.add(num);
+
+		System.out.println("Array Difference : " + result);
 	}
 }
+// Time Conplexity = O(n + m) = [ Linear ]
+// Space Conplexity = O(n + m) = [ Linear ]

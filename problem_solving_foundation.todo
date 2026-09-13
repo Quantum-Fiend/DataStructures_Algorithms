@@ -78,7 +78,7 @@ For every problem:
 * [x] 045. Two Sum — Easy | HashMap
 * [x] 046. Find Majority Element — Easy | HashMap
 * [x] 047. Find Intersection of Two Arrays — Easy | HashSet
-* [ ] 048. Find Difference Between Two Arrays — Easy | HashSet
+* [x] 048. Find Difference Between Two Arrays — Easy | HashSet
 * [ ] 049. Longest Subarray with Sum K — Medium | Prefix Sum + HashMap
 * [ ] 050. Subarray Sum Equals K — Medium | Prefix Sum + HashMap
 * [ ] 051. Longest Consecutive Sequence — Medium | HashSet
