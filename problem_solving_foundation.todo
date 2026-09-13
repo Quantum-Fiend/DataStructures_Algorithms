@@ -31,7 +31,7 @@ For every problem:
 * [x] 004. Count Even and Odd Numbers — Easy | Array
 * [x] 005. Reverse an Integer Array — Easy | Array
 * [x] 006. Find Second Largest Element — Easy | Array
-* [ ] 007. Find Second Smallest Element — Easy | Array
+* [x] 007. Find Second Smallest Element — Easy | Array
 * [x] 008. Check if Array is Sorted — Easy | Array
 * [x] 009. Find Missing Number from 1 to N — Easy | Math/XOR
 * [x] 010. Find All Duplicate Elements — Easy | Array/Hashing

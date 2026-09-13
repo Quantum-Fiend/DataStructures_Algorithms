@@ -49,5 +49,5 @@ public class findDifferenceBetweenArrays_048 {
 		System.out.println("Array Difference : " + result);
 	}
 }
-// Time Conplexity = O(n + m) = [ Linear ]
-// Space Conplexity = O(n + m) = [ Linear ]
+// Time Conplexity = O(n + m) ~ [ Linear ]
+// Space Conplexity = O(n + m) ~ [ Linear ]
