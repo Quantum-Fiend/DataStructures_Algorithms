@@ -45,7 +45,7 @@ For every problem:
 * [ ] 018. Move Negative Numbers to One Side — Easy | Array
 * [ ] 019. Find Element Appearing Once Using XOR — Easy | XOR
 * [ ] 020. Find Leaders in an Array — Easy | Array
-* [ ] 021. Find Equilibrium Index — Easy | Prefix Sum
+* [x] 021. Find Equilibrium Index — Easy | Prefix Sum
 * [ ] 022. Maximum Difference Between Two Elements — Easy | Array
 * [ ] 023. Best Time to Buy and Sell Stock — Easy | Greedy
 * [ ] 024. Maximum Subarray — Medium | Kadane's Algorithm
