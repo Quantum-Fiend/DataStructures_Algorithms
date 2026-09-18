@@ -80,7 +80,7 @@ For every problem:
 * [x] 047. Find Intersection of Two Arrays — Easy | HashSet
 * [x] 048. Find Difference Between Two Arrays — Easy | HashSet
 * [x] 049. Longest Subarray with Sum K — Medium | Prefix Sum + HashMap
-* [ ] 050. Subarray Sum Equals K — Medium | Prefix Sum + HashMap
+* [x] 050. Subarray Sum Equals K — Medium | Prefix Sum + HashMap
 * [ ] 051. Longest Consecutive Sequence — Medium | HashSet
 * [ ] 052. Top K Frequent Elements — Medium | HashMap + Heap
 * [ ] 053. Isomorphic Strings — Easy | HashMap
