@@ -10,7 +10,23 @@ public class longestConsecutiveSequence_051 {
 		for (int num : arr)
 			set.add(num);
 
-		return -1;
+		int longestLength = 0;
+
+		for (int num : set) {
+			if (!set.contains(num - 1)) {
+				int currentNumber = num;
+				int currentLength = 1;
+
+				while (set.contains(currentNumber + 1)) {
+					currentNumber++;
+					currentLength++;
+				}
+
+				longestLength = Math.max(longestLength, currentLength);
+			}
+		}
+
+		return longestLength;
 	}
 
 	public static void main(String[] args) {
@@ -41,3 +57,5 @@ public class longestConsecutiveSequence_051 {
 		// Expected: 0
 	}
 }
+// Time Complexity = O(n) ~ [ Linear ]
+// Space Complexity = O(n) ~ [ Linear ]
