@@ -83,7 +83,7 @@ For every problem:
 * [x] 050. Subarray Sum Equals K — Medium | Prefix Sum + HashMap
 * [x] 051. Longest Consecutive Sequence — Medium | HashSet
 * [ ] 052. Top K Frequent Elements — Medium | HashMap + Heap
-* [ ] 053. Isomorphic Strings — Easy | HashMap
+* [x] 053. Isomorphic Strings — Easy | HashMap
 * [ ] 054. Happy Number — Easy | HashSet
 * [ ] 055. 4Sum — Medium | Hashing + Two Pointers
 
