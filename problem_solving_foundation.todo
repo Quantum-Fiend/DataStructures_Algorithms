@@ -84,7 +84,7 @@ For every problem:
 * [x] 051. Longest Consecutive Sequence — Medium | HashSet
 * [ ] 052. Top K Frequent Elements — Medium | HashMap + Heap
 * [x] 053. Isomorphic Strings — Easy | HashMap
-* [ ] 054. Happy Number — Easy | HashSet
+* [x] 054. Happy Number — Easy | HashSet
 * [ ] 055. 4Sum — Medium | Hashing + Two Pointers
 
 ## Two Pointers
