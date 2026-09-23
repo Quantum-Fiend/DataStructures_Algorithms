@@ -54,7 +54,7 @@ For every problem:
 ## Strings
 
 * [x] 026. Reverse a String — Easy | String
-* [ ] 027. Check if a String is a Palindrome — Easy | Two Pointers
+* [x] 027. Check if a String is a Palindrome — Easy | Two Pointers
 * [ ] 028. Count Vowels and Consonants — Easy | String
 * [ ] 029. Convert Lowercase to Uppercase Without Built-in Method — Easy | String
 * [ ] 030. Remove Spaces from a String — Easy | String
