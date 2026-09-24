@@ -85,7 +85,7 @@ For every problem:
 * [ ] 052. Top K Frequent Elements — Medium | HashMap + Heap
 * [x] 053. Isomorphic Strings — Easy | HashMap
 * [x] 054. Happy Number — Easy | HashSet
-* [ ] 055. 4Sum — Medium | Hashing + Two Pointers
+* [x] 055. 4Sum — Medium | Sorting + Two Pointers
 
 ## Two Pointers
 
