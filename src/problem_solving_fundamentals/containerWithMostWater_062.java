@@ -13,10 +13,10 @@ public class containerWithMostWater_062 {
 
 			if (height[left] < height[right])
 				left++;
-			else
+			else {
 				right--;
+			}
 		}
-
 		return maxArea;
 	}
 
