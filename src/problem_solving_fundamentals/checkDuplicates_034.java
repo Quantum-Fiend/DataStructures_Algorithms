@@ -1,10 +1,22 @@
 package problem_solving_fundamentals;
 
+import java.util.HashSet;
+
 public class checkDuplicates_034 {
 	public static boolean containsDuplicateCharacters(String s) {
+
+		HashSet<Character> set = new HashSet<>();
+
+		for (int i = 0; i < s.length(); i++) {
+			char ch = s.charAt(i);
+
+			if (set.contains(ch))
+				return true;
+
+			set.add(ch);
+		}
 		return false;
 	}
-
 	public static void main(String[] args) {
 
 		// Test Case 1
@@ -33,3 +45,5 @@ public class checkDuplicates_034 {
 		// Expected: false
 	}
 }
+// Time Complexity = O(n) ~ [ Linear ]
+// Space Complexity = O(n) ~ [ Linear ]

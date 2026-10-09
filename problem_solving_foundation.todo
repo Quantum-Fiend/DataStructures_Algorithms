@@ -61,7 +61,7 @@ For every problem:
 * [ ] 031. Find First Non-Repeating Character — Easy | HashMap
 * [ ] 032. Find Most Frequent Character — Easy | HashMap
 * [ ] 033. Check if Two Strings are Anagrams — Easy | HashMap
-* [ ] 034. Check Whether String Contains Duplicate Characters — Easy | HashSet
+* [x] 034. Check Whether String Contains Duplicate Characters — Easy | HashSet
 * [ ] 035. Longest Common Prefix — Easy | String
 * [ ] 036. Valid Palindrome Ignoring Special Characters — Easy | Two Pointers
 * [ ] 037. Reverse Words in a String — Medium | String
