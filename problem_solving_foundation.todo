@@ -102,7 +102,7 @@ For every problem:
 
 ## Sliding Window
 
-* [ ] 066. Maximum Sum Subarray of Size K — Easy | Sliding Window
+* [x] 066. Maximum Sum Subarray of Size K — Easy | Sliding Window
 * [ ] 067. Smallest Subarray with Sum at Least Target — Medium | Sliding Window
 * [ ] 068. Longest Substring Without Repeating Characters — Medium | Sliding Window
 * [ ] 069. Maximum Number of Vowels in Substring of Size K — Medium | Sliding Window
