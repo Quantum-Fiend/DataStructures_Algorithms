@@ -6,7 +6,7 @@ public class maximumSumSubarraySizeK_066 {
 		int sum = 0;
 
 		for (int i = 0; i < k; i++)
-			sum += i;
+			sum += arr[i];
 
 		int maxSum = sum;
 
