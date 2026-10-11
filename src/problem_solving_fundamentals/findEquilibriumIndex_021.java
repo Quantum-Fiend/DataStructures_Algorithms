@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findEquilibriumIndex_021 {
+public class FindEquilibriumIndex_021 {
 	public static int findEquilibriumIndex(int[] arr) {
 
 		int totalSum = 0;

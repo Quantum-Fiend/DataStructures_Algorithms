@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class threeSum_063 {
+public class ThreeSum_063 {
 	public static List<List<Integer>> threeSum(int[] nums) {
 
 		List<List<Integer>> list = new ArrayList<>();

@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.HashSet;
 
-public class longestConsecutiveSequence_051 {
+public class LongestConsecutiveSequence_051 {
 	public static int longestConsecutiveSequence(int[] arr) {
 
 		HashSet<Integer> set = new HashSet<>();

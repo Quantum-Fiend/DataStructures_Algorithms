@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class validPalindromeUsingTwoPointer_061 {
+public class ValidPalindromeUsingTwoPointer_061 {
 	public static boolean validPalindromee(String s) {
 
 		int left = 0, right = s.length() - 1;

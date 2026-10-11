@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findFirstNonRepeatingElement_011 {
+public class FindFirstNonRepeatingElement_011 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { 4, 5, 1, 2, 1, 4, 5 };

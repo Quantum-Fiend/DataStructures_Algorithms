@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.Arrays;
 
-public class mergeTwoSortedArray_059 {
+public class MergeTwoSortedArray_059 {
 	public static int[] mergeSortedArray(int[] arr1, int[] arr2) {
 
 		int[] result = new int[arr1.length + arr2.length];

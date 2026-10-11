@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findSecondSmallest_007 {
+public class FindSecondSmallest_007 {
 	public static void main(String[] args) {
 
 		// Test Case 1

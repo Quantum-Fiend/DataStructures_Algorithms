@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.HashSet;
 
-public class happyNumber_054 {
+public class HappyNumber_054 {
 	public static boolean happyNumber(int n) {
 
 		HashSet<Integer> set = new HashSet<>();

@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public interface linearSearchFindTarget_015 {
+public interface LinearSearchFindTarget_015 {
 	public static void main(String[] args) {
 
 		// Test Case 1

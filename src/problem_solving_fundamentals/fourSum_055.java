@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.*;
 
-public class fourSum_055 {
+public class FourSum_055 {
 	public static List<List<Integer>> fourSum(int[] arr, int target) {
 
 		List<List<Integer>> list = new ArrayList<>();

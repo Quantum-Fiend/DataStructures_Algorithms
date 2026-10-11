@@ -1,7 +1,7 @@
 package problem_solving_fundamentals;
 import java.util.HashSet;
 
-public class findDifferenceBetweenArrays_048 {
+public class FindDifferenceBetweenArrays_048 {
 	public static void main(String[] args) {
 
 		HashSet<Integer> set1 = new HashSet<>();

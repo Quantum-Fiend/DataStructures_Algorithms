@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.Arrays;
 
-public class threeSumClosest_064 {
+public class ThreeSumClosest_064 {
 	public static int closestThreeSum(int[] nums, int target) {
 
 		Arrays.sort(nums);

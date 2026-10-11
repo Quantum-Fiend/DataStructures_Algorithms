@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.Arrays;
 
-public class moveAllZerosToEnd_057 {
+public class MoveAllZerosToEnd_057 {
 	public static void moveAllZeros(int[] arr) {
 
 		int left = 0;

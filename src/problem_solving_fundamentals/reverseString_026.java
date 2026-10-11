@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class reverseString_026 {
+public class ReverseString_026 {
 	public static void main(String[] args) {
 
 		// Test Case 1

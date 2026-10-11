@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.HashMap;
 
-public class longestSubarraykSum_049 {
+public class LongestSubarraykSum_049 {
 	public static int longestSubarrayWithSumK(int[] arr, int k) {
 
 		HashMap<Integer, Integer> map = new HashMap<>();

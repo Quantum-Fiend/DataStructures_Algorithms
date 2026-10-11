@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class findSumOfElements_003 {
+public class FindSumOfElements_003 {
 	public static void main(String[] args) {
 
 		int[] arr1 = { 5, 10, 15, 20 }; // Test Case 1

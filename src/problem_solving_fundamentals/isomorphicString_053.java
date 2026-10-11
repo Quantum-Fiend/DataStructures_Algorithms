@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.HashMap;
 
-public class isomorphicString_053 {
+public class IsomorphicString_053 {
 	public static boolean isomorphicString(String s, String t) {
 
 		HashMap<Character, Character> mapST = new HashMap<>();

@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.HashMap;
 
-public class subArraySumEqualsK_050 {
+public class SubArraySumEqualsK_050 {
 	public static int subArraySumEqualsK(int[] arr, int k) {
 
 		HashMap<Integer, Integer> map = new HashMap<>();

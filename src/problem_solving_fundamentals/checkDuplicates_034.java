@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.HashSet;
 
-public class checkDuplicates_034 {
+public class CheckDuplicates_034 {
 	public static boolean containsDuplicateCharacters(String s) {
 
 		HashSet<Character> set = new HashSet<>();

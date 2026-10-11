@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class removeDuplicates_058 {
+public class RemoveDuplicates_058 {
 	public static int removeDuplicates(int[] arr) {
 
 		int left = 0;

@@ -2,7 +2,7 @@ package problem_solving_fundamentals;
 
 import java.util.Arrays;
 
-public class squaresOfSortedArray_060 {
+public class SquaresOfSortedArray_060 {
 	public static int[] sortedSquares(int[] nums) {
 
 		int[] result = new int[nums.length];

@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class maximumSumSubarraySizeK_066 {
+public class MaximumSumSubarraySizeK_066 {
 	public static int maximumSumSubarrayK(int[] arr, int k) {
 
 		int sum = 0;

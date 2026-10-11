@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class checkStringPalindrome_027 {
+public class CheckStringPalindrome_027 {
 	public static void main(String[] args) {
 
 		// Test Case 1

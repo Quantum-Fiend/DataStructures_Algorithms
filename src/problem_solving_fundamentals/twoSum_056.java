@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class twoSum_056 {
+public class TwoSum_056 {
 
 	public static int[] twoSum(int[] arr, int target) {
 

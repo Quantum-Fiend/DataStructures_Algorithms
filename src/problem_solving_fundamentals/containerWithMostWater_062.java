@@ -1,6 +1,6 @@
 package problem_solving_fundamentals;
 
-public class containerWithMostWater_062 {
+public class ContainerWithMostWater_062 {
 	public static int maxArea(int[] height) {
 
 		int left = 0, right = height.length - 1;
